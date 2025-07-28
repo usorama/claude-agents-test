@@ -1,0 +1,17 @@
+{
+  "id": "f170d7bfad97bc8b",
+  "level": "task",
+  "parentId": "8cd7ddd346ce8543",
+  "metadata": {
+    "createdAt": "2025-07-28T13:25:38.184Z",
+    "updatedAt": "2025-07-28T13:25:38.184Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "taskId": "batch-5",
+    "taskType": "unknown",
+    "input": {},
+    "status": "pending"
+  }
+}

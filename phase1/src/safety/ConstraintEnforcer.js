@@ -56,6 +56,10 @@ export class ConstraintEnforcer {
     // Validate action against constraints
     const violations = this.constraints.validate(action, context);
     
+    // Additional security checks
+    const securityViolations = await this._performSecurityChecks(agent, action);
+    violations.push(...securityViolations);
+    
     if (violations.length > 0) {
       // Record violations
       this._recordViolations(agent.id, violations);
@@ -75,7 +79,7 @@ export class ConstraintEnforcer {
         );
       }
       
-      // Check for high severity violations
+      // Check for high severity violations - BLOCK THESE TOO
       const highViolations = violations.filter(v => v.severity === 'HIGH');
       if (highViolations.length > 0) {
         this.logger.warn('High severity violations detected', {
@@ -84,13 +88,11 @@ export class ConstraintEnforcer {
           violations: highViolations
         });
         
-        // Check if confirmation required
-        if (this.constraints.requiresConfirmation(action)) {
-          const confirmed = await this._requestConfirmation(agent, action, highViolations);
-          if (!confirmed) {
-            throw new SafetyViolationError('Action rejected by confirmation', highViolations);
-          }
-        }
+        // FOR PRODUCTION: Block all HIGH severity violations
+        throw new SafetyViolationError(
+          `High severity safety violation: ${highViolations[0].message}`,
+          highViolations
+        );
       }
       
       // Log other violations
@@ -318,6 +320,105 @@ export class ConstraintEnforcer {
     if (agent.actionHistory.length > 100) {
       agent.actionHistory = agent.actionHistory.slice(-100);
     }
+  }
+
+  /**
+   * Perform additional security checks beyond basic constraints
+   * @private
+   */
+  async _performSecurityChecks(agent, action) {
+    const violations = [];
+    
+    // Enhanced path traversal detection
+    if (action.parameters && action.parameters.file_path) {
+      const filePath = action.parameters.file_path;
+      
+      // Check for multiple path traversal patterns
+      const traversalPatterns = ['..', '.\\', '%2e%2e', '%2E%2E', '%252e', '%252E'];
+      const hasTraversal = traversalPatterns.some(pattern => filePath.includes(pattern));
+      
+      if (hasTraversal) {
+        violations.push({
+          type: 'PATH_TRAVERSAL_ENHANCED',
+          message: `Enhanced path traversal detected in path: ${filePath}`,
+          severity: 'CRITICAL',
+          path: filePath
+        });
+      }
+      
+      // Check for absolute paths outside workspace
+      if (filePath.startsWith('/') && !filePath.startsWith(process.cwd())) {
+        violations.push({
+          type: 'ABSOLUTE_PATH_VIOLATION',
+          message: `Absolute path outside workspace: ${filePath}`,
+          severity: 'HIGH',
+          path: filePath
+        });
+      }
+      
+      // Check for sensitive system paths
+      const sensitivePatterns = ['/etc/', '/proc/', '/sys/', '/dev/', '/root/', '/home/'];
+      const isSensitive = sensitivePatterns.some(pattern => filePath.includes(pattern));
+      
+      if (isSensitive) {
+        violations.push({
+          type: 'SENSITIVE_PATH_ACCESS',
+          message: `Attempt to access sensitive system path: ${filePath}`,
+          severity: 'CRITICAL',
+          path: filePath
+        });
+      }
+    }
+    
+    // Enhanced command validation for Bash actions
+    if (action.tool === 'Bash' && action.parameters && action.parameters.command) {
+      const command = action.parameters.command;
+      
+      // Check for dangerous command combinations
+      const dangerousPatterns = [
+        { pattern: /rm\s+-rf\s+\//, severity: 'CRITICAL', message: 'Attempted system deletion' },
+        { pattern: /sudo\s+/, severity: 'HIGH', message: 'Unauthorized privilege escalation' },
+        { pattern: /curl.*\|\s*sh/, severity: 'HIGH', message: 'Dangerous remote code execution' },
+        { pattern: /wget.*\|\s*sh/, severity: 'HIGH', message: 'Dangerous remote code execution' },
+        { pattern: /nc\s+-[le]/, severity: 'HIGH', message: 'Network backdoor attempt' },
+        { pattern: /python.*-c.*exec/, severity: 'MEDIUM', message: 'Dynamic code execution' },
+        { pattern: /eval\s*\(/, severity: 'MEDIUM', message: 'Code evaluation detected' }
+      ];
+      
+      for (const { pattern, severity, message } of dangerousPatterns) {
+        if (pattern.test(command)) {
+          violations.push({
+            type: 'DANGEROUS_COMMAND',
+            message: `${message}: ${command}`,
+            severity,
+            command
+          });
+        }
+      }
+    }
+    
+    // Resource exhaustion protection
+    const currentUsage = await this.resourceMonitor.getCurrentUsage(agent.id);
+    
+    if (currentUsage.memory > 512 * 1024 * 1024) { // 512MB
+      violations.push({
+        type: 'MEMORY_EXHAUSTION',
+        message: `Agent memory usage excessive: ${Math.round(currentUsage.memory / 1024 / 1024)}MB`,
+        severity: 'HIGH',
+        memoryUsage: currentUsage.memory
+      });
+    }
+    
+    if (currentUsage.cpu > 80) { // 80%
+      violations.push({
+        type: 'CPU_EXHAUSTION', 
+        message: `Agent CPU usage excessive: ${currentUsage.cpu}%`,
+        severity: 'HIGH',
+        cpuUsage: currentUsage.cpu
+      });
+    }
+    
+    return violations;
   }
 
   _startViolationCleanup() {

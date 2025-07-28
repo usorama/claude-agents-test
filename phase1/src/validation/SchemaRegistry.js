@@ -345,6 +345,31 @@ export class SchemaRegistry {
   }
 
   /**
+   * Get registered schemas (alias for getAllSchemas for compatibility)
+   * @returns {Array} Array of {agentType, schema} objects
+   */
+  getRegisteredSchemas() {
+    return this.getAllSchemas();
+  }
+
+  /**
+   * Get schema statistics for monitoring
+   * @returns {Object} Schema statistics
+   */
+  getSchemaStats() {
+    const schemas = this.getAllSchemas();
+    const stats = {
+      totalSchemas: schemas.length,
+      schemaTypes: schemas.map(s => s.agentType),
+      strictMode: this.strictMode,
+      lastValidation: new Date().toISOString()
+    };
+    
+    this.logger.debug('Schema statistics requested', stats);
+    return stats;
+  }
+
+  /**
    * Clear all schemas (useful for testing)
    */
   clearSchemas() {

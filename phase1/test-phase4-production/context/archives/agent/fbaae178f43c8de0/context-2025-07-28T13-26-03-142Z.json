@@ -1,0 +1,29 @@
+{
+  "id": "fbaae178f43c8de0",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T13:25:33.118Z",
+    "updatedAt": "2025-07-28T13:25:33.118Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "agentId": "git-manager-001",
+    "agentType": "GitManagerAgent",
+    "state": {
+      "agentId": "git-manager-001",
+      "status": "idle",
+      "currentTasks": [],
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "lastActiveAt": "2025-07-28T13:25:33.108Z"
+    },
+    "history": [],
+    "capabilities": [
+      "version_control",
+      "documentation"
+    ]
+  }
+}

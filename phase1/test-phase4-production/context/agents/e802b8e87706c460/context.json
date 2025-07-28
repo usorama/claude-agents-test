@@ -1,0 +1,42 @@
+{
+  "id": "e802b8e87706c460",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T13:25:33.118Z",
+    "updatedAt": "2025-07-28T13:25:33.118Z",
+    "version": 1,
+    "tags": [],
+    "summarized": true,
+    "summarizedAt": "2025-07-28T13:27:03.123Z",
+    "originalSize": 466,
+    "compressionLevel": "high",
+    "preserveRatio": 1,
+    "compressedSize": 657,
+    "compressionRatio": "1.410"
+  },
+  "data": {
+    "agentId": "devops-001",
+    "agentType": "DevOpsAgent",
+    "state": {
+      "status": "idle",
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "currentTasks": [],
+      "agentId": "devops-001",
+      "lastActiveAt": "2025-07-28T13:25:33.108Z"
+    },
+    "capabilities": [
+      "deployment",
+      "monitoring",
+      "version_control"
+    ],
+    "history": [],
+    "historySummary": {
+      "totalEntries": 0,
+      "preserved": 0,
+      "summarized": true
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "1514c4753da05168",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T13:25:33.110Z",
+    "updatedAt": "2025-07-28T13:25:33.110Z",
+    "version": 1,
+    "tags": [],
+    "summarized": true,
+    "summarizedAt": "2025-07-28T13:27:03.125Z",
+    "originalSize": 463,
+    "compressionLevel": "high",
+    "preserveRatio": 1,
+    "compressedSize": 654,
+    "compressionRatio": "1.413"
+  },
+  "data": {
+    "agentId": "analyst-001",
+    "agentType": "AnalystAgent",
+    "state": {
+      "status": "idle",
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "currentTasks": [],
+      "agentId": "analyst-001",
+      "lastActiveAt": "2025-07-28T13:25:33.105Z"
+    },
+    "capabilities": [
+      "research",
+      "planning",
+      "documentation"
+    ],
+    "history": [],
+    "historySummary": {
+      "totalEntries": 0,
+      "preserved": 0,
+      "summarized": true
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "a1ab705c3c4c776d",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T13:25:33.119Z",
+    "updatedAt": "2025-07-28T13:25:33.119Z",
+    "version": 1,
+    "tags": [],
+    "summarized": true,
+    "summarizedAt": "2025-07-28T13:27:03.114Z",
+    "originalSize": 474,
+    "compressionLevel": "high",
+    "preserveRatio": 1,
+    "compressedSize": 665,
+    "compressionRatio": "1.403"
+  },
+  "data": {
+    "agentId": "self-healer-001",
+    "agentType": "SelfHealerAgent",
+    "state": {
+      "status": "idle",
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "currentTasks": [],
+      "agentId": "self-healer-001",
+      "lastActiveAt": "2025-07-28T13:25:33.109Z"
+    },
+    "capabilities": [
+      "monitoring",
+      "debugging",
+      "deployment"
+    ],
+    "history": [],
+    "historySummary": {
+      "totalEntries": 0,
+      "preserved": 0,
+      "summarized": true
+    }
+  }
+}

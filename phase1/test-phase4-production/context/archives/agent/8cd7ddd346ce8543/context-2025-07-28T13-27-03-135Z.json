@@ -1,0 +1,18 @@
+{
+  "id": "8cd7ddd346ce8543",
+  "level": "agent",
+  "parentId": "afe3f904630e9f53",
+  "metadata": {
+    "createdAt": "2025-07-28T13:25:33.122Z",
+    "updatedAt": "2025-07-28T13:25:38.130Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "agentId": "perf-test-001",
+    "agentType": "unknown",
+    "state": {},
+    "history": [],
+    "capabilities": []
+  }
+}

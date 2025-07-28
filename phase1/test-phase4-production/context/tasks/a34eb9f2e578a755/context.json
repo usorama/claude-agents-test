@@ -1,0 +1,24 @@
+{
+  "id": "a34eb9f2e578a755",
+  "level": "task",
+  "parentId": "8cd7ddd346ce8543",
+  "metadata": {
+    "createdAt": "2025-07-28T13:25:38.185Z",
+    "updatedAt": "2025-07-28T13:25:38.185Z",
+    "version": 1,
+    "tags": [],
+    "summarized": true,
+    "summarizedAt": "2025-07-28T13:27:03.162Z",
+    "originalSize": 262,
+    "compressionLevel": "high",
+    "preserveRatio": 1,
+    "compressedSize": 385,
+    "compressionRatio": "1.469"
+  },
+  "data": {
+    "taskId": "batch-6",
+    "taskType": "unknown",
+    "status": "pending",
+    "input": {}
+  }
+}

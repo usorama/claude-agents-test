@@ -649,3 +649,41 @@
 {"error":{},"level":"error","message":"Failed to create context","service":"ContextManager","timestamp":"2025-07-28T13:01:56.494Z"}
 {"error":{},"level":"error","message":"Failed to create context","service":"ContextManager","timestamp":"2025-07-28T13:07:30.421Z"}
 {"error":{},"level":"error","message":"Failed to create context","service":"ContextManager","timestamp":"2025-07-28T13:13:17.827Z"}
+{"level":"warn","message":"Parent context not found","parentId":"2fb15b9b6114bc55","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:18:35.673Z"}
+{"level":"warn","message":"Parent context not found","parentId":"2fb15b9b6114bc55","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:18:35.674Z"}
+{"level":"warn","message":"Parent context not found","parentId":"2fb15b9b6114bc55","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:18:35.726Z"}
+{"level":"warn","message":"Parent context not found","parentId":"2fb15b9b6114bc55","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:18:35.726Z"}
+{"level":"warn","message":"Parent context not found","parentId":"2fb15b9b6114bc55","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:18:35.727Z"}
+{"level":"warn","message":"Parent context not found","parentId":"2fb15b9b6114bc55","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:18:35.727Z"}
+{"level":"warn","message":"Parent context not found","parentId":"2fb15b9b6114bc55","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:18:35.728Z"}
+{"level":"warn","message":"Parent context not found","parentId":"2fb15b9b6114bc55","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:18:35.728Z"}
+{"level":"warn","message":"Parent context not found","parentId":"2fb15b9b6114bc55","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:18:35.729Z"}
+{"level":"warn","message":"Parent context not found","parentId":"2fb15b9b6114bc55","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:18:35.729Z"}
+{"level":"warn","message":"Parent context not found","parentId":"2fb15b9b6114bc55","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:18:35.730Z"}
+{"level":"warn","message":"Parent context not found","parentId":"2fb15b9b6114bc55","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:18:35.781Z"}
+{"level":"warn","message":"Parent context not found","parentId":"2fb15b9b6114bc55","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:18:35.833Z"}
+{"level":"warn","message":"Parent context not found","parentId":"2fb15b9b6114bc55","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:18:35.884Z"}
+{"level":"warn","message":"Parent context not found","parentId":"2fb15b9b6114bc55","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:18:35.936Z"}
+{"error":{},"level":"error","message":"Failed to create context","service":"ContextManager","timestamp":"2025-07-28T13:18:35.939Z"}
+{"level":"warn","message":"Context size threshold exceeded, triggering summarization","ratio":12.752,"service":"ContextManager","threshold":800,"timestamp":"2025-07-28T13:19:00.586Z","totalSize":12752}
+{"level":"warn","message":"Context size threshold exceeded, triggering summarization","ratio":20.104,"service":"ContextManager","threshold":800,"timestamp":"2025-07-28T13:19:30.576Z","totalSize":20104}
+{"level":"warn","message":"Context size threshold exceeded, triggering summarization","ratio":20.102,"service":"ContextManager","threshold":800,"timestamp":"2025-07-28T13:20:00.576Z","totalSize":20102}
+{"level":"warn","message":"Parent context not found","parentId":"8cd7ddd346ce8543","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:25:38.131Z"}
+{"level":"warn","message":"Parent context not found","parentId":"8cd7ddd346ce8543","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:25:38.132Z"}
+{"level":"warn","message":"Parent context not found","parentId":"8cd7ddd346ce8543","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:25:38.132Z"}
+{"level":"warn","message":"Parent context not found","parentId":"8cd7ddd346ce8543","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:25:38.133Z"}
+{"level":"warn","message":"Parent context not found","parentId":"8cd7ddd346ce8543","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:25:38.184Z"}
+{"level":"warn","message":"Parent context not found","parentId":"8cd7ddd346ce8543","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:25:38.184Z"}
+{"level":"warn","message":"Parent context not found","parentId":"8cd7ddd346ce8543","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:25:38.185Z"}
+{"level":"warn","message":"Parent context not found","parentId":"8cd7ddd346ce8543","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:25:38.185Z"}
+{"level":"warn","message":"Parent context not found","parentId":"8cd7ddd346ce8543","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:25:38.186Z"}
+{"level":"warn","message":"Parent context not found","parentId":"8cd7ddd346ce8543","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:25:38.186Z"}
+{"level":"warn","message":"Parent context not found","parentId":"8cd7ddd346ce8543","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:25:38.187Z"}
+{"level":"warn","message":"Parent context not found","parentId":"8cd7ddd346ce8543","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:25:38.238Z"}
+{"level":"warn","message":"Parent context not found","parentId":"8cd7ddd346ce8543","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:25:38.289Z"}
+{"level":"warn","message":"Parent context not found","parentId":"8cd7ddd346ce8543","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:25:38.339Z"}
+{"level":"warn","message":"Parent context not found","parentId":"8cd7ddd346ce8543","parentLevel":"project","service":"ContextManager","timestamp":"2025-07-28T13:25:38.390Z"}
+{"error":{},"level":"error","message":"Failed to create context","service":"ContextManager","timestamp":"2025-07-28T13:25:38.393Z"}
+{"level":"warn","message":"Context size threshold exceeded, triggering summarization","ratio":12.752,"service":"ContextManager","threshold":800,"timestamp":"2025-07-28T13:26:03.103Z","totalSize":12752}
+{"level":"warn","message":"Context size threshold exceeded, triggering summarization","ratio":19.799,"service":"ContextManager","threshold":800,"timestamp":"2025-07-28T13:26:33.097Z","totalSize":19799}
+{"level":"warn","message":"Context size threshold exceeded, triggering summarization","ratio":19.799,"service":"ContextManager","threshold":800,"timestamp":"2025-07-28T13:27:03.100Z","totalSize":19799}

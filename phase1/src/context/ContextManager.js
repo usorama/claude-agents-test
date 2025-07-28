@@ -256,12 +256,59 @@ export class ContextManager {
     try {
       const data = await fs.readFile(contextPath, 'utf8');
       const context = JSON.parse(data);
-      return validateContext(context);
+      const validatedContext = validateContext(context);
+      
+      this.logger.debug('Context retrieved successfully', { 
+        level, 
+        id,
+        size: data.length
+      });
+      
+      return validatedContext;
     } catch (error) {
       if (error.code === 'ENOENT') {
+        this.logger.debug('Context not found', { level, id, path: contextPath });
         return null;
       }
-      this.logger.error('Failed to get context', { level, id, error });
+      
+      // Handle JSON parsing errors
+      if (error instanceof SyntaxError) {
+        this.logger.error('Context file corrupted - invalid JSON', { 
+          level, 
+          id, 
+          path: contextPath,
+          error: error.message 
+        });
+        
+        // Try to recover from backup or archive
+        const recovered = await this._attemptContextRecovery(level, id);
+        if (recovered) {
+          this.logger.info('Context recovered from backup', { level, id });
+          return recovered;
+        }
+        
+        throw new Error(`Context file corrupted and recovery failed: ${level}/${id}`);
+      }
+      
+      // Handle validation errors
+      if (error.name === 'ZodError') {
+        this.logger.error('Context validation failed', { 
+          level, 
+          id, 
+          validationErrors: error.errors 
+        });
+        
+        // Try to repair context if possible
+        const repaired = await this._attemptContextRepair(level, id, error);
+        if (repaired) {
+          this.logger.info('Context repaired successfully', { level, id });
+          return repaired;
+        }
+        
+        throw new Error(`Context validation failed: ${level}/${id} - ${error.message}`);
+      }
+      
+      this.logger.error('Failed to get context', { level, id, error: error.message });
       throw error;
     }
   }
@@ -1494,6 +1541,164 @@ export class ContextManager {
     });
     
     return stats;
+  }
+
+  /**
+   * Attempt to recover a corrupted context from backup or archive
+   * @private
+   */
+  async _attemptContextRecovery(level, id) {
+    try {
+      // First, try to find an archived version
+      const archiveDir = path.join(this.archiveDir, this._getLevelDir(level), id);
+      
+      try {
+        const files = await fs.readdir(archiveDir);
+        const contextFiles = files.filter(f => f.startsWith('context-')).sort().reverse();
+        
+        if (contextFiles.length > 0) {
+          const latestArchive = path.join(archiveDir, contextFiles[0]);
+          const data = await fs.readFile(latestArchive, 'utf8');
+          const archivedContext = JSON.parse(data);
+          
+          // Validate and restore
+          const validatedContext = validateContext(archivedContext);
+          await this.updateContext(level, id, validatedContext);
+          
+          return validatedContext;
+        }
+      } catch (archiveError) {
+        this.logger.debug('No archive found for recovery', { level, id });
+      }
+      
+      // If no archive, try to create a minimal valid context
+      const minimalContext = this._createMinimalContext(level, id);
+      
+      return minimalContext;
+    } catch (error) {
+      this.logger.error('Context recovery failed', { 
+        level, 
+        id, 
+        error: error.message 
+      });
+      return null;
+    }
+  }
+
+  /**
+   * Attempt to repair a context with validation errors
+   * @private
+   */
+  async _attemptContextRepair(level, id, validationError) {
+    try {
+      const contextPath = this._getContextPath(level, id);
+      const data = await fs.readFile(contextPath, 'utf8');
+      const context = JSON.parse(data);
+      
+      // Create a repaired version by providing defaults for missing required fields
+      const repairedContext = this._repairContextStructure(context, level, id, validationError);
+      
+      // Validate the repaired context
+      const validatedContext = validateContext(repairedContext);
+      
+      return validatedContext;
+    } catch (error) {
+      this.logger.error('Context repair failed', { 
+        level, 
+        id, 
+        error: error.message 
+      });
+      return null;
+    }
+  }
+
+  /**
+   * Create a minimal valid context for recovery
+   * @private
+   */
+  _createMinimalContext(level, id) {
+    const now = new Date().toISOString();
+    
+    const baseContext = {
+      id,
+      level,
+      metadata: {
+        version: '2.0',
+        createdAt: now,
+        updatedAt: now,
+        tags: [],
+        recovered: true,
+        recoveredAt: now
+      },
+      data: {}
+    };
+
+    // Add level-specific minimal data
+    switch (level) {
+      case 'agent':
+        baseContext.data = {
+          agentId: id,
+          agentType: 'UnknownAgent',
+          state: { status: 'recovered' },
+          capabilities: [],
+          history: []
+        };
+        break;
+      case 'task':
+        baseContext.data = {
+          taskId: id,
+          taskType: 'unknown',
+          status: 'recovered',
+          progress: 0,
+          input: {},
+          output: null
+        };
+        break;
+      case 'project':
+        baseContext.data = {
+          projectName: 'Recovered Project',
+          projectPath: '.',
+          config: {},
+          activeAgents: [],
+          sharedState: {}
+        };
+        break;
+      default:
+        baseContext.data = {
+          recovered: true,
+          originalLevel: level
+        };
+    }
+
+    return baseContext;
+  }
+
+  /**
+   * Repair context structure by adding missing fields
+   * @private
+   */
+  _repairContextStructure(context, level, id, validationError) {
+    const repaired = { ...context };
+    
+    // Ensure basic structure
+    if (!repaired.id) repaired.id = id;
+    if (!repaired.level) repaired.level = level;
+    if (!repaired.metadata) repaired.metadata = {};
+    if (!repaired.data) repaired.data = {};
+    
+    // Repair metadata
+    const now = new Date().toISOString();
+    if (!repaired.metadata.version) repaired.metadata.version = '2.0';
+    if (!repaired.metadata.createdAt) repaired.metadata.createdAt = now;
+    if (!repaired.metadata.updatedAt) repaired.metadata.updatedAt = now;
+    if (!repaired.metadata.tags) repaired.metadata.tags = [];
+    
+    // Mark as repaired
+    repaired.metadata.repaired = true;
+    repaired.metadata.repairedAt = now;
+    repaired.metadata.originalErrors = validationError.errors?.map(e => e.message) || [];
+    
+    return repaired;
   }
 
   /**

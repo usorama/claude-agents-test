@@ -1,0 +1,42 @@
+{
+  "id": "751fd5b68c9d197a",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T13:25:33.115Z",
+    "updatedAt": "2025-07-28T13:25:33.115Z",
+    "version": 1,
+    "tags": [],
+    "summarized": true,
+    "summarizedAt": "2025-07-28T13:27:03.128Z",
+    "originalSize": 458,
+    "compressionLevel": "high",
+    "preserveRatio": 1,
+    "compressedSize": 649,
+    "compressionRatio": "1.417"
+  },
+  "data": {
+    "agentId": "pm-001",
+    "agentType": "PMAgent",
+    "state": {
+      "status": "idle",
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "currentTasks": [],
+      "agentId": "pm-001",
+      "lastActiveAt": "2025-07-28T13:25:33.106Z"
+    },
+    "capabilities": [
+      "planning",
+      "documentation",
+      "project_management"
+    ],
+    "history": [],
+    "historySummary": {
+      "totalEntries": 0,
+      "preserved": 0,
+      "summarized": true
+    }
+  }
+}

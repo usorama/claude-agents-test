@@ -1,0 +1,2 @@
+{"component":null,"correlationId":"1753708710595-1","environment":"development","fileLogging":true,"level":"info","message":"Enhanced logger initialized","pid":9112,"service":"agent-git-manager-001","structuredLogging":true,"timestamp":"2025-07-28 18:48:30.595"}
+{"component":null,"correlationId":"1753709133112-1","environment":"development","fileLogging":true,"level":"info","message":"Enhanced logger initialized","pid":19038,"service":"agent-git-manager-001","structuredLogging":true,"timestamp":"2025-07-28 18:55:33.112"}

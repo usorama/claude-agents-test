@@ -1,0 +1,41 @@
+{
+  "id": "fbaae178f43c8de0",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T13:25:33.118Z",
+    "updatedAt": "2025-07-28T13:25:33.118Z",
+    "version": 1,
+    "tags": [],
+    "summarized": true,
+    "summarizedAt": "2025-07-28T13:27:03.127Z",
+    "originalSize": 470,
+    "compressionLevel": "high",
+    "preserveRatio": 1,
+    "compressedSize": 661,
+    "compressionRatio": "1.406"
+  },
+  "data": {
+    "agentId": "git-manager-001",
+    "agentType": "GitManagerAgent",
+    "state": {
+      "status": "idle",
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "currentTasks": [],
+      "agentId": "git-manager-001",
+      "lastActiveAt": "2025-07-28T13:25:33.108Z"
+    },
+    "capabilities": [
+      "version_control",
+      "documentation"
+    ],
+    "history": [],
+    "historySummary": {
+      "totalEntries": 0,
+      "preserved": 0,
+      "summarized": true
+    }
+  }
+}
