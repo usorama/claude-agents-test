@@ -1,0 +1,30 @@
+{
+  "id": "914e3ab0d484c1d4",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T06:21:41.447Z",
+    "updatedAt": "2025-07-28T06:21:41.447Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "agentId": "analyst-ai-tutor",
+    "agentType": "AnalystAgent",
+    "state": {
+      "agentId": "analyst-ai-tutor",
+      "status": "idle",
+      "currentTasks": [],
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "lastActiveAt": "2025-07-28T06:21:41.445Z"
+    },
+    "history": [],
+    "capabilities": [
+      "research",
+      "planning",
+      "documentation"
+    ]
+  }
+}

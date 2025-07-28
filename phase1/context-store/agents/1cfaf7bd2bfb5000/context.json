@@ -1,0 +1,30 @@
+{
+  "id": "1cfaf7bd2bfb5000",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T13:13:17.826Z",
+    "updatedAt": "2025-07-28T13:13:17.826Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "agentId": "logging-test-analyst",
+    "agentType": "AnalystAgent",
+    "state": {
+      "agentId": "logging-test-analyst",
+      "status": "idle",
+      "currentTasks": [],
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "lastActiveAt": "2025-07-28T13:13:17.824Z"
+    },
+    "history": [],
+    "capabilities": [
+      "research",
+      "planning",
+      "documentation"
+    ]
+  }
+}

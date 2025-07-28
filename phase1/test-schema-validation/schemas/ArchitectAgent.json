@@ -1,0 +1,9 @@
+{
+  "agentType": "ArchitectAgent",
+  "description": "Schema for ArchitectAgent",
+  "schemaDefinition": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

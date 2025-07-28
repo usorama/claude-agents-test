@@ -1,0 +1,42 @@
+{
+  "id": "5bdfdb6ed9cca97d",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T05:23:35.055Z",
+    "updatedAt": "2025-07-28T05:23:35.055Z",
+    "version": 1,
+    "tags": [],
+    "summarized": true,
+    "summarizedAt": "2025-07-28T05:25:05.074Z",
+    "originalSize": 473,
+    "compressionLevel": "high",
+    "preserveRatio": 1,
+    "compressedSize": 664,
+    "compressionRatio": 1.4038054968287526
+  },
+  "data": {
+    "agentId": "architect-001",
+    "agentType": "ArchitectAgent",
+    "state": {
+      "status": "idle",
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "currentTasks": [],
+      "agentId": "architect-001",
+      "lastActiveAt": "2025-07-28T05:23:35.049Z"
+    },
+    "capabilities": [
+      "architecture",
+      "planning",
+      "documentation"
+    ],
+    "history": [],
+    "historySummary": {
+      "totalEntries": 0,
+      "preserved": 0,
+      "summarized": true
+    }
+  }
+}

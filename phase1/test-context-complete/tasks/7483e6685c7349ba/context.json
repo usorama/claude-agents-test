@@ -1,0 +1,60 @@
+{
+  "id": "7483e6685c7349ba",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T07:04:30.603Z",
+    "updatedAt": "2025-07-27T07:04:30.605Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLC33WR-HG6B",
+    "taskType": "research-prompt",
+    "input": {
+      "topic": "Research cloud computing trends"
+    },
+    "output": {
+      "taskId": "TASK-MDLC33WR-HG6B",
+      "agentId": "analyst-001",
+      "status": "success",
+      "output": {
+        "prompt": {
+          "topic": "Research cloud computing trends",
+          "objective": "Conduct deep research on Research cloud computing trends",
+          "researchQuestions": [
+            "What is the current state of Research cloud computing trends?",
+            "What are the key challenges in Research cloud computing trends?",
+            "What opportunities exist in Research cloud computing trends?"
+          ],
+          "methodology": {
+            "approach": "Comprehensive",
+            "methods": [
+              "Literature review",
+              "Market analysis",
+              "Expert interviews"
+            ]
+          },
+          "expectedOutputs": [
+            "Executive summary",
+            "Detailed findings",
+            "Recommendations"
+          ],
+          "sources": [
+            "Academic journals",
+            "Industry reports",
+            "News articles"
+          ],
+          "timeline": "2-3 weeks"
+        },
+        "formatted": "Research Prompt: Research cloud computing trends\n\nObjective: Conduct deep research on Research cloud computing trends\n\nQuestions:\nWhat is the current state of Research cloud computing trends?\nWhat are the key challenges in Research cloud computing trends?\nWhat opportunities exist in Research cloud computing trends?"
+      },
+      "metrics": {
+        "duration": 2,
+        "tokensUsed": 240,
+        "toolInvocations": 0
+      }
+    },
+    "status": "completed"
+  }
+}

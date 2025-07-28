@@ -1,0 +1,34 @@
+{
+  "id": "431c6b19997d7581",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:06:11.827Z",
+    "updatedAt": "2025-07-27T08:06:11.830Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLEAFSJ-W7VE",
+    "taskType": "create-full-stack-architecture",
+    "input": {
+      "projectName": "New Project",
+      "requirements": [
+        "Monitor system performance and create dashboards"
+      ]
+    },
+    "output": {
+      "taskId": "TASK-MDLEAFSJ-W7VE",
+      "agentId": "architect-001",
+      "status": "failure",
+      "output": null,
+      "metrics": {
+        "duration": 2,
+        "tokensUsed": 0,
+        "toolInvocations": 0
+      },
+      "error": "infrastructure is not defined"
+    },
+    "status": "completed"
+  }
+}

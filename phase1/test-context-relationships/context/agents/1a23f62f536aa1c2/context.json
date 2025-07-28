@@ -1,0 +1,18 @@
+{
+  "id": "1a23f62f536aa1c2",
+  "level": "agent",
+  "parentId": "9e3f54ae3fe5f728",
+  "metadata": {
+    "createdAt": "2025-07-28T06:21:06.878Z",
+    "updatedAt": "2025-07-28T06:21:06.878Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "agentId": "nav-agent-1",
+    "agentType": "NavigationAgent",
+    "state": {},
+    "history": [],
+    "capabilities": []
+  }
+}

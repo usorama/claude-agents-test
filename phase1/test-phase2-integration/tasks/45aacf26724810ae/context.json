@@ -1,0 +1,89 @@
+{
+  "id": "45aacf26724810ae",
+  "level": "task",
+  "parentId": "self-healer-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:06:11.859Z",
+    "updatedAt": "2025-07-27T08:06:11.861Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "emergency-heal",
+    "taskType": "emergency-response",
+    "input": {
+      "alert": "Service degradation detected",
+      "severity": "critical",
+      "affectedServices": [
+        "test-service"
+      ],
+      "skipDiagnosis": false
+    },
+    "output": {
+      "emergency": {
+        "id": "emergency-1753603571860",
+        "alert": "Service degradation detected",
+        "severity": "critical",
+        "startedAt": "2025-07-27T08:06:11.860Z",
+        "actions": [
+          {
+            "type": "stabilization",
+            "result": {
+              "actions": [
+                {
+                  "service": "test-service",
+                  "action": "enable-circuit-breaker",
+                  "result": "enabled"
+                },
+                {
+                  "service": "test-service",
+                  "action": "increase-limits",
+                  "result": "increased by 50%"
+                }
+              ],
+              "status": "stabilized"
+            }
+          },
+          {
+            "type": "healing",
+            "action": "emergency-scaling",
+            "result": {
+              "action": "emergency-scaling",
+              "services": [
+                "test-service"
+              ],
+              "status": "executed",
+              "impact": "immediate"
+            }
+          }
+        ],
+        "status": "stabilized",
+        "diagnosis": {
+          "likelyCause": "unknown",
+          "affectedComponents": [
+            "test-service"
+          ],
+          "severity": "critical",
+          "quickChecks": [
+            {
+              "check": "service-health",
+              "result": "degraded"
+            },
+            {
+              "check": "error-rate",
+              "result": "high"
+            },
+            {
+              "check": "resource-usage",
+              "result": "normal"
+            }
+          ]
+        },
+        "completedAt": "2025-07-27T08:06:11.860Z"
+      },
+      "summary": "Emergency stabilized: 2 actions taken"
+    },
+    "status": "completed",
+    "progress": 100
+  }
+}

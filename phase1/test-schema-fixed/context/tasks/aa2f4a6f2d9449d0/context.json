@@ -1,0 +1,19 @@
+{
+  "id": "aa2f4a6f2d9449d0",
+  "level": "task",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T06:12:50.386Z",
+    "updatedAt": "2025-07-28T06:12:50.387Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "transition-assigned-cancelled",
+    "taskType": "transition-test",
+    "input": {
+      "testData": "Status transition test"
+    },
+    "status": "cancelled"
+  }
+}

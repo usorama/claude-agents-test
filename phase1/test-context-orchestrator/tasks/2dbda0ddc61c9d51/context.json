@@ -1,0 +1,22 @@
+{
+  "id": "2dbda0ddc61c9d51",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T07:02:43.885Z",
+    "updatedAt": "2025-07-27T07:02:43.887Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLC0TKC-9101",
+    "taskType": "execute-workflow",
+    "input": {
+      "workflowId": "non-existent-workflow",
+      "input": {}
+    },
+    "status": "failed",
+    "progress": 0,
+    "error": "Unknown workflow: non-existent-workflow"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "5b411cd0d8284cfa",
+  "level": "task",
+  "parentId": "architect-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:06:11.828Z",
+    "updatedAt": "2025-07-27T08:06:11.830Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLEAFSJ-W7VE",
+    "taskType": "create-full-stack-architecture",
+    "input": {
+      "projectName": "New Project",
+      "requirements": [
+        "Monitor system performance and create dashboards"
+      ]
+    },
+    "status": "failed",
+    "progress": 0,
+    "error": "infrastructure is not defined"
+  }
+}

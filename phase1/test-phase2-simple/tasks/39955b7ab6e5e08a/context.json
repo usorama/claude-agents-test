@@ -1,0 +1,47 @@
+{
+  "id": "39955b7ab6e5e08a",
+  "level": "task",
+  "parentId": "developer-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:08:49.669Z",
+    "updatedAt": "2025-07-27T08:08:49.670Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "test-dev",
+    "taskType": "write-tests",
+    "input": {
+      "targetPath": "test.js",
+      "testType": "unit"
+    },
+    "output": {
+      "testSuite": {
+        "targetPath": "test.js",
+        "testType": "unit",
+        "framework": "jest",
+        "tests": [
+          {
+            "name": "func1-test",
+            "path": "__tests__/test.func1-test.test.js",
+            "type": "unit",
+            "assertions": 2
+          },
+          {
+            "name": "func2-test",
+            "path": "__tests__/test.func2-test.test.js",
+            "type": "unit",
+            "assertions": 2
+          }
+        ],
+        "coverage": {
+          "target": 80,
+          "actual": 85
+        }
+      },
+      "summary": "Wrote 2 tests for test.js, 85% coverage"
+    },
+    "status": "completed",
+    "progress": 100
+  }
+}

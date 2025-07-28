@@ -1,0 +1,30 @@
+{
+  "id": "539dd06185b7cac2",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T06:21:41.451Z",
+    "updatedAt": "2025-07-28T06:21:41.451Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "agentId": "developer-ai-tutor",
+    "agentType": "DeveloperAgent",
+    "state": {
+      "agentId": "developer-ai-tutor",
+      "status": "idle",
+      "currentTasks": [],
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "lastActiveAt": "2025-07-28T06:21:41.451Z"
+    },
+    "history": [],
+    "capabilities": [
+      "development",
+      "testing",
+      "debugging"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "f9d0dbdaab8ad3ed",
+  "level": "project",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T06:21:41.455Z",
+    "updatedAt": "2025-07-28T06:22:06.574Z",
+    "version": 6,
+    "tags": []
+  },
+  "data": {
+    "projectName": "AI Tutor Prototype: Next.js + Vertex AI Classroom",
+    "projectPath": ".",
+    "config": {},
+    "activeAgents": [],
+    "sharedState": {},
+    "children": [
+      "24cf8259274e4c2c",
+      "762096fd66d3d88d",
+      "a0bb83679014054e",
+      "d9a8e8036af8fc79",
+      "e557ab24f049391b"
+    ]
+  }
+}

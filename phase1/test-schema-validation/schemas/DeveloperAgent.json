@@ -1,0 +1,9 @@
+{
+  "agentType": "DeveloperAgent",
+  "description": "Schema for DeveloperAgent",
+  "schemaDefinition": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

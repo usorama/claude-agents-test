@@ -1,0 +1,30 @@
+{
+  "id": "f3ef1fd0d28f18b5",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-27T08:08:49.637Z",
+    "updatedAt": "2025-07-27T08:08:49.675Z",
+    "version": 3,
+    "tags": []
+  },
+  "data": {
+    "agentId": "devops-001",
+    "agentType": "devops",
+    "state": {
+      "agentId": "devops-001",
+      "status": "idle",
+      "currentTasks": [],
+      "completedTasks": 1,
+      "failedTasks": 0,
+      "totalTokensUsed": 241,
+      "lastActiveAt": "2025-07-27T08:08:49.673Z"
+    },
+    "history": [],
+    "capabilities": [
+      "deployment",
+      "monitoring",
+      "version_control"
+    ]
+  }
+}

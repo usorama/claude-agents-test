@@ -1,0 +1,29 @@
+{
+  "id": "ec7e1bd53b34875d",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T11:02:10.160Z",
+    "updatedAt": "2025-07-28T11:02:10.164Z",
+    "version": 3,
+    "tags": []
+  },
+  "data": {
+    "agentId": "agent-developer-1",
+    "agentType": "DeveloperAgent",
+    "state": {
+      "agentId": "agent-developer-1",
+      "status": "idle",
+      "currentTasks": [],
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "lastActiveAt": "2025-07-28T11:02:10.154Z"
+    },
+    "history": [],
+    "capabilities": [
+      "data-processing",
+      "analysis"
+    ]
+  }
+}

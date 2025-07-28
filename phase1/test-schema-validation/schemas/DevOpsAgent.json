@@ -1,0 +1,9 @@
+{
+  "agentType": "DevOpsAgent",
+  "description": "Schema for DevOpsAgent",
+  "schemaDefinition": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "477efd3851887721",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:06:11.825Z",
+    "updatedAt": "2025-07-27T08:06:11.826Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLEAFSH-Y7FT",
+    "taskType": "analyze-request",
+    "input": {
+      "request": "Deploy the application to staging environment",
+      "context": {}
+    },
+    "output": {
+      "tasks": [],
+      "summary": "Executed 0 tasks"
+    },
+    "status": "completed",
+    "progress": 100
+  }
+}

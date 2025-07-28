@@ -1,0 +1,16 @@
+{"agent":"agent-qa-1","capabilities":["file-operations","reporting"],"level":"info","message":"Agent initialized","timestamp":"2025-07-28T11:02:10.161Z","tools":["sendMessage"],"type":"QAAgent"}
+{"agent":"agent-qa-1","level":"info","message":"Communication system connected","timestamp":"2025-07-28T11:02:10.161Z","type":"QAAgent"}
+{"agent":"agent-qa-1","from":"agent-orchestrator","level":"info","message":"Message received","priority":"normal","subject":"System Status Update","timestamp":"2025-07-28T11:02:10.264Z","type":"broadcast"}
+{"agent":"agent-qa-1","from":"agent-orchestrator","level":"info","message":"Broadcast received","subject":"System Status Update","timestamp":"2025-07-28T11:02:10.264Z","type":"QAAgent"}
+{"agent":"agent-qa-1","from":"system","level":"info","message":"Message received","priority":"normal","subject":"New conversation: Project Planning Discussion","timestamp":"2025-07-28T11:02:10.465Z","type":"broadcast"}
+{"agent":"agent-qa-1","from":"system","level":"info","message":"Broadcast received","subject":"New conversation: Project Planning Discussion","timestamp":"2025-07-28T11:02:10.465Z","type":"QAAgent"}
+{"agent":"agent-qa-1","from":"system","level":"info","message":"Message received","priority":"normal","subject":"Conversation ended: Project Planning Discussion","timestamp":"2025-07-28T11:02:10.566Z","type":"broadcast"}
+{"agent":"agent-qa-1","from":"system","level":"info","message":"Broadcast received","subject":"Conversation ended: Project Planning Discussion","timestamp":"2025-07-28T11:02:10.566Z","type":"QAAgent"}
+{"agent":"agent-qa-1","capabilities":["file-operations","reporting"],"level":"info","message":"Agent initialized","timestamp":"2025-07-28T11:02:45.965Z","tools":["sendMessage"],"type":"QAAgent"}
+{"agent":"agent-qa-1","level":"info","message":"Communication system connected","timestamp":"2025-07-28T11:02:45.965Z","type":"QAAgent"}
+{"agent":"agent-qa-1","from":"agent-orchestrator","level":"info","message":"Message received","priority":"normal","subject":"System Status Update","timestamp":"2025-07-28T11:02:46.073Z","type":"broadcast"}
+{"agent":"agent-qa-1","from":"agent-orchestrator","level":"info","message":"Broadcast received","subject":"System Status Update","timestamp":"2025-07-28T11:02:46.073Z","type":"QAAgent"}
+{"agent":"agent-qa-1","from":"system","level":"info","message":"Message received","priority":"normal","subject":"New conversation: Project Planning Discussion","timestamp":"2025-07-28T11:02:46.275Z","type":"broadcast"}
+{"agent":"agent-qa-1","from":"system","level":"info","message":"Broadcast received","subject":"New conversation: Project Planning Discussion","timestamp":"2025-07-28T11:02:46.275Z","type":"QAAgent"}
+{"agent":"agent-qa-1","from":"system","level":"info","message":"Message received","priority":"normal","subject":"Conversation ended: Project Planning Discussion","timestamp":"2025-07-28T11:02:46.378Z","type":"broadcast"}
+{"agent":"agent-qa-1","from":"system","level":"info","message":"Broadcast received","subject":"Conversation ended: Project Planning Discussion","timestamp":"2025-07-28T11:02:46.378Z","type":"QAAgent"}

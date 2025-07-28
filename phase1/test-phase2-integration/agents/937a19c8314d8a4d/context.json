@@ -1,0 +1,30 @@
+{
+  "id": "937a19c8314d8a4d",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-27T08:06:11.814Z",
+    "updatedAt": "2025-07-27T08:06:11.814Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "agentId": "qa-001",
+    "agentType": "qa",
+    "state": {
+      "agentId": "qa-001",
+      "status": "idle",
+      "currentTasks": [],
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "lastActiveAt": "2025-07-27T08:06:11.808Z"
+    },
+    "history": [],
+    "capabilities": [
+      "testing",
+      "review",
+      "quality"
+    ]
+  }
+}

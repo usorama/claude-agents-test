@@ -1,0 +1,17 @@
+{
+  "id": "2055e7395e668e9b",
+  "level": "task",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T05:23:35.276Z",
+    "updatedAt": "2025-07-28T05:23:35.276Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "taskId": "2055e7395e668e9b",
+    "taskType": "unknown",
+    "input": {},
+    "status": "pending"
+  }
+}

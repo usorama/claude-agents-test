@@ -1,0 +1,83 @@
+{
+  "id": "0a7c47a3be708e03",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T07:02:43.878Z",
+    "updatedAt": "2025-07-27T07:02:43.879Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLC0TK6-3M82",
+    "taskType": "monitor-progress",
+    "input": {
+      "includeMetrics": true
+    },
+    "output": {
+      "activeWorkflows": 0,
+      "queuedTasks": 0,
+      "pendingTasks": 0,
+      "workflows": [],
+      "metrics": {
+        "agents": {
+          "analyst": {
+            "agentId": "analyst-001",
+            "status": "idle",
+            "currentTasks": [],
+            "completedTasks": 0,
+            "failedTasks": 0,
+            "totalTokensUsed": 0,
+            "lastActiveAt": "2025-07-27T07:02:43.875Z",
+            "uptime": 4,
+            "sessionTokens": 0,
+            "metrics": {
+              "avgTaskDuration": 0,
+              "successRate": 0,
+              "tokenEfficiency": 0
+            }
+          },
+          "pm": {
+            "agentId": "pm-001",
+            "status": "idle",
+            "currentTasks": [],
+            "completedTasks": 0,
+            "failedTasks": 0,
+            "totalTokensUsed": 0,
+            "lastActiveAt": "2025-07-27T07:02:43.875Z",
+            "uptime": 4,
+            "sessionTokens": 0,
+            "metrics": {
+              "avgTaskDuration": 0,
+              "successRate": 0,
+              "tokenEfficiency": 0
+            }
+          },
+          "architect": {
+            "agentId": "architect-001",
+            "status": "idle",
+            "currentTasks": [],
+            "completedTasks": 0,
+            "failedTasks": 0,
+            "totalTokensUsed": 0,
+            "lastActiveAt": "2025-07-27T07:02:43.875Z",
+            "uptime": 4,
+            "sessionTokens": 0,
+            "metrics": {
+              "avgTaskDuration": 0,
+              "successRate": 0,
+              "tokenEfficiency": 0
+            }
+          }
+        },
+        "system": {
+          "uptime": 4,
+          "totalTasks": 0,
+          "successRate": null
+        }
+      }
+    },
+    "status": "completed",
+    "progress": 100
+  }
+}

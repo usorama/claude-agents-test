@@ -1,0 +1,25 @@
+{
+  "id": "4666c8753963abe4",
+  "level": "project",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T05:23:35.040Z",
+    "updatedAt": "2025-07-28T05:23:35.040Z",
+    "version": 1,
+    "tags": [],
+    "summarized": true,
+    "summarizedAt": "2025-07-28T05:25:05.096Z",
+    "originalSize": 286,
+    "compressionLevel": "high",
+    "preserveRatio": 1,
+    "compressedSize": 409,
+    "compressionRatio": 1.43006993006993
+  },
+  "data": {
+    "projectName": "Production Test Project",
+    "projectPath": ".",
+    "activeAgents": [],
+    "config": {},
+    "sharedState": {}
+  }
+}

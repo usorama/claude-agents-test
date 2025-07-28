@@ -1,0 +1,19 @@
+{
+  "id": "e388f936f69bf69a",
+  "level": "task",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T06:12:50.380Z",
+    "updatedAt": "2025-07-28T06:12:50.381Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "transition-pending-assigned",
+    "taskType": "transition-test",
+    "input": {
+      "testData": "Status transition test"
+    },
+    "status": "assigned"
+  }
+}

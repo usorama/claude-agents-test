@@ -1,0 +1,22 @@
+{
+  "id": "02178854ace4400f",
+  "level": "project",
+  "parentId": "1a3830c711712cfb",
+  "metadata": {
+    "createdAt": "2025-07-28T06:20:51.797Z",
+    "updatedAt": "2025-07-28T06:21:06.873Z",
+    "version": 3,
+    "tags": []
+  },
+  "data": {
+    "projectName": "Hierarchy Test Project",
+    "projectPath": ".",
+    "config": {},
+    "activeAgents": [],
+    "sharedState": {},
+    "children": [
+      "51c5c7a928bc41d5",
+      "c9403a3e6df3702b"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "55d9dddcec8d5a6f",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:03:27.330Z",
+    "updatedAt": "2025-07-27T08:03:27.334Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLE6WV6-IMWX",
+    "taskType": "analyze-request",
+    "input": {
+      "request": "Monitor system performance and create dashboards",
+      "context": {}
+    },
+    "output": {
+      "tasks": [
+        {
+          "taskId": "TASK-MDLE6WV6-UN0L",
+          "agentId": "architect-001",
+          "status": "failure",
+          "output": null,
+          "metrics": {
+            "duration": 2,
+            "tokensUsed": 0,
+            "toolInvocations": 0
+          },
+          "error": "infrastructure is not defined"
+        }
+      ],
+      "summary": "Executed 1 tasks"
+    },
+    "status": "completed",
+    "progress": 100
+  }
+}

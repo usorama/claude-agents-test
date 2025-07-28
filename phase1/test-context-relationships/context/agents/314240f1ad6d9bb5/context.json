@@ -1,0 +1,18 @@
+{
+  "id": "314240f1ad6d9bb5",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T06:20:41.658Z",
+    "updatedAt": "2025-07-28T06:20:41.658Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "agentId": "rel-agent-2",
+    "agentType": "TestAgent",
+    "state": {},
+    "history": [],
+    "capabilities": []
+  }
+}

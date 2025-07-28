@@ -1,0 +1,24 @@
+{
+  "id": "eeb72e96488bb059",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T07:02:44.014Z",
+    "updatedAt": "2025-07-27T07:02:44.016Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLC0TNY-L9MU",
+    "taskType": "analyze-request",
+    "input": {
+      "request": "First research the market for project management tools, then create a PRD for a new tool, and finally design the architecture with API integration and real-time features",
+      "context": {
+        "complexity": "high"
+      }
+    },
+    "status": "failed",
+    "progress": 0,
+    "error": "[\n  {\n    \"received\": \"assigned\",\n    \"code\": \"invalid_enum_value\",\n    \"options\": [\n      \"pending\",\n      \"running\",\n      \"completed\",\n      \"failed\"\n    ],\n    \"path\": [\n      \"data\",\n      \"status\"\n    ],\n    \"message\": \"Invalid enum value. Expected 'pending' | 'running' | 'completed' | 'failed', received 'assigned'\"\n  }\n]"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "29192103edfa0177",
+  "level": "agent",
+  "parentId": "4666c8753963abe4",
+  "metadata": {
+    "createdAt": "2025-07-28T05:23:35.062Z",
+    "updatedAt": "2025-07-28T05:23:35.063Z",
+    "version": 2,
+    "tags": [],
+    "summarized": true,
+    "summarizedAt": "2025-07-28T05:25:05.094Z",
+    "originalSize": 283,
+    "compressionLevel": "high",
+    "preserveRatio": 1,
+    "compressedSize": 474,
+    "compressionRatio": 1.674911660777385
+  },
+  "data": {
+    "agentId": "perf-test-001",
+    "agentType": "unknown",
+    "state": {},
+    "capabilities": [],
+    "history": [],
+    "historySummary": {
+      "totalEntries": 0,
+      "preserved": 0,
+      "summarized": true
+    }
+  }
+}

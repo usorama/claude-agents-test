@@ -1,0 +1,2 @@
+{"agent":"pm-test","capabilities":["planning","documentation","project_management"],"level":"info","message":"Agent initialized","timestamp":"2025-07-27T11:52:54.544Z","tools":["Read","Write","Edit","MultiEdit","Task","TodoWrite"],"type":"PMAgent"}
+{"agent":"pm-test","level":"error","message":"Safety violation prevented task execution","taskId":"story-001","timestamp":"2025-07-27T11:52:54.544Z","type":"PMAgent","violations":[{"message":"Tool 'create-story' is not allowed","severity":"CRITICAL","tool":"create-story","type":"ACTION_FORBIDDEN"}]}

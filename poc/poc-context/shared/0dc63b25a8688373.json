@@ -1,0 +1,40 @@
+{
+  "from": "analyst-001",
+  "to": "pm-001",
+  "type": "shared",
+  "timestamp": "2025-07-27T06:14:01.497Z",
+  "data": {
+    "brief": {
+      "project": "BMAD Claude Code Implementation",
+      "executive_summary": "Project brief for BMAD Claude Code Implementation",
+      "background": "Background information from research",
+      "objectives": [
+        "Multi-agent coordination",
+        "Context management",
+        "Performance optimization"
+      ],
+      "scope": {
+        "included": [
+          "Feature 1",
+          "Feature 2",
+          "Feature 3"
+        ],
+        "excluded": [
+          "Out of scope item 1",
+          "Out of scope item 2"
+        ]
+      },
+      "constraints": [
+        "Time constraint: 10 weeks",
+        "Budget constraint: Limited resources",
+        "Technical constraint: Claude Code limitations"
+      ],
+      "success_criteria": [
+        "Criterion 1: Working PoC",
+        "Criterion 2: Performance targets met",
+        "Criterion 3: Cost within budget"
+      ],
+      "timestamp": "2025-07-27T06:14:01.496Z"
+    }
+  }
+}

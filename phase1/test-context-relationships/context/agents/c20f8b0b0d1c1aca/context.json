@@ -1,0 +1,20 @@
+{
+  "id": "c20f8b0b0d1c1aca",
+  "level": "agent",
+  "parentId": "6033e08b895dbc8c",
+  "metadata": {
+    "createdAt": "2025-07-28T06:20:31.635Z",
+    "updatedAt": "2025-07-28T06:20:31.635Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "agentId": "test-agent",
+    "agentType": "TestAgent",
+    "state": {},
+    "history": [],
+    "capabilities": [
+      "testing"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "9e687e317afd911e",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T11:02:45.959Z",
+    "updatedAt": "2025-07-28T11:02:45.959Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "agentId": "agent-orchestrator",
+    "agentType": "OrchestratorAgent",
+    "state": {
+      "agentId": "agent-orchestrator",
+      "status": "idle",
+      "currentTasks": [],
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "lastActiveAt": "2025-07-28T11:02:45.953Z"
+    },
+    "history": [],
+    "capabilities": [
+      "coordination",
+      "task-assignment",
+      "monitoring"
+    ]
+  }
+}

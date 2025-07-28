@@ -1,0 +1,9 @@
+{
+  "agentType": "OrchestratorAgent",
+  "description": "Schema for OrchestratorAgent",
+  "schemaDefinition": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "8125625e27baa8b4",
+  "level": "project",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T05:29:42.043Z",
+    "updatedAt": "2025-07-28T05:29:42.043Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "projectName": "Simple Todo API",
+    "projectPath": ".",
+    "config": {},
+    "activeAgents": [],
+    "sharedState": {}
+  }
+}

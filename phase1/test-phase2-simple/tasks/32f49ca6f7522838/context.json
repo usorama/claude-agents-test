@@ -1,0 +1,105 @@
+{
+  "id": "32f49ca6f7522838",
+  "level": "task",
+  "parentId": "devops-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:08:49.674Z",
+    "updatedAt": "2025-07-27T08:08:49.674Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "test-devops",
+    "taskType": "setup-ci-cd",
+    "input": {
+      "platform": "github-actions",
+      "projectType": "node"
+    },
+    "output": {
+      "cicdSetup": {
+        "platform": "github-actions",
+        "environments": [
+          "development",
+          "staging",
+          "production"
+        ],
+        "pipelines": [
+          {
+            "environment": "development",
+            "stages": [
+              "build",
+              "test",
+              "deploy"
+            ],
+            "triggers": [
+              "push",
+              "pr"
+            ],
+            "approvals": [],
+            "notifications": [
+              "slack",
+              "email"
+            ]
+          },
+          {
+            "environment": "staging",
+            "stages": [
+              "build",
+              "test",
+              "deploy"
+            ],
+            "triggers": [
+              "push",
+              "pr"
+            ],
+            "approvals": [],
+            "notifications": [
+              "slack",
+              "email"
+            ]
+          },
+          {
+            "environment": "production",
+            "stages": [
+              "build",
+              "test",
+              "deploy"
+            ],
+            "triggers": [
+              "manual"
+            ],
+            "approvals": [
+              "required"
+            ],
+            "notifications": [
+              "slack",
+              "email"
+            ]
+          }
+        ],
+        "secrets": [
+          "AWS_ACCESS_KEY_ID",
+          "AWS_SECRET_ACCESS_KEY",
+          "DOCKER_REGISTRY_USERNAME",
+          "DOCKER_REGISTRY_PASSWORD",
+          "DEVELOPMENT_DATABASE_URL",
+          "DEVELOPMENT_API_KEY",
+          "STAGING_DATABASE_URL",
+          "STAGING_API_KEY",
+          "PRODUCTION_DATABASE_URL",
+          "PRODUCTION_API_KEY"
+        ],
+        "artifacts": {
+          "type": "s3",
+          "bucket": "artifacts",
+          "retention": "30 days",
+          "encryption": "AES256"
+        },
+        "status": "completed"
+      },
+      "summary": "CI/CD setup complete for github-actions: 3 pipelines created"
+    },
+    "status": "completed",
+    "progress": 100
+  }
+}

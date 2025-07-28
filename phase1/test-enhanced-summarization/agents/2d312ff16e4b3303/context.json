@@ -1,0 +1,30 @@
+{
+  "id": "2d312ff16e4b3303",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T04:35:38.964Z",
+    "updatedAt": "2025-07-28T04:35:38.969Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "agentId": "test-agent-001",
+    "agentType": "analyst",
+    "state": {
+      "status": "unknown",
+      "summary": "Emergency summarized - essential state only"
+    },
+    "history": [
+      {
+        "timestamp": "2025-07-28T04:35:38.967Z",
+        "action": "emergency_summarization"
+      }
+    ],
+    "capabilities": [
+      "research",
+      "analysis",
+      "documentation"
+    ]
+  }
+}

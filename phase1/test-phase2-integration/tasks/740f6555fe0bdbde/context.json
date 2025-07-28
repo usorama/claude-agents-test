@@ -1,0 +1,53 @@
+{
+  "id": "740f6555fe0bdbde",
+  "level": "task",
+  "parentId": "git-manager-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:06:11.866Z",
+    "updatedAt": "2025-07-27T08:06:11.872Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "analyze-repo",
+    "taskType": "analyze-history",
+    "input": {
+      "branch": "main",
+      "stats": true
+    },
+    "output": {
+      "analysis": {
+        "branch": "main",
+        "commits": [
+          {
+            "hash": "[Simulated output of: git log --pretty=format:'%H",
+            "author": "%an",
+            "email": "%ae",
+            "date": null,
+            "message": "%s' --date=iso main]"
+          }
+        ],
+        "statistics": {
+          "totalCommits": 1,
+          "commitTypes": {
+            "%s' --date=iso main]": 1
+          },
+          "averageCommitsPerDay": null,
+          "busiestDay": "undefined"
+        },
+        "contributors": {
+          "%an": {
+            "commits": 1,
+            "email": "%ae",
+            "firstCommit": null,
+            "lastCommit": null
+          }
+        },
+        "trends": []
+      },
+      "summary": "Analyzed 1 commits on main"
+    },
+    "status": "completed",
+    "progress": 100
+  }
+}

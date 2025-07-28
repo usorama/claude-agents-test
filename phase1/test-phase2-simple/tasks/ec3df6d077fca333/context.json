@@ -1,0 +1,38 @@
+{
+  "id": "ec3df6d077fca333",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:08:49.661Z",
+    "updatedAt": "2025-07-27T08:08:49.665Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLEDTKS-00WX",
+    "taskType": "analyze-request",
+    "input": {
+      "request": "Monitor system health",
+      "context": {}
+    },
+    "output": {
+      "tasks": [
+        {
+          "taskId": "TASK-MDLEDTKT-9F6H",
+          "agentId": "architect-001",
+          "status": "failure",
+          "output": null,
+          "metrics": {
+            "duration": 3,
+            "tokensUsed": 0,
+            "toolInvocations": 0
+          },
+          "error": "infrastructure is not defined"
+        }
+      ],
+      "summary": "Executed 1 tasks"
+    },
+    "status": "completed",
+    "progress": 100
+  }
+}

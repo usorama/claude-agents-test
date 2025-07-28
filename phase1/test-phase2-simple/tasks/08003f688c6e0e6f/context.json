@@ -1,0 +1,25 @@
+{
+  "id": "08003f688c6e0e6f",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:08:49.656Z",
+    "updatedAt": "2025-07-27T08:08:49.657Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLEDTKO-AQN0",
+    "taskType": "analyze-request",
+    "input": {
+      "request": "Implement new feature",
+      "context": {}
+    },
+    "output": {
+      "tasks": [],
+      "summary": "Executed 0 tasks"
+    },
+    "status": "completed",
+    "progress": 100
+  }
+}

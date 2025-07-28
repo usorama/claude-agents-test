@@ -1,0 +1,18 @@
+{
+  "id": "0a12d96fb475869e",
+  "level": "agent",
+  "parentId": "a34d3adf2ccb1c90",
+  "metadata": {
+    "createdAt": "2025-07-28T05:30:43.281Z",
+    "updatedAt": "2025-07-28T05:30:43.281Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "agentId": "analyst-proto",
+    "agentType": "unknown",
+    "state": {},
+    "history": [],
+    "capabilities": []
+  }
+}

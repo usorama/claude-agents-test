@@ -1,0 +1,29 @@
+{
+  "id": "962ef11e7a50a98d",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-27T07:04:30.594Z",
+    "updatedAt": "2025-07-27T07:04:30.608Z",
+    "version": 5,
+    "tags": []
+  },
+  "data": {
+    "agentId": "orchestrator-001",
+    "agentType": "orchestrator",
+    "state": {
+      "agentId": "orchestrator-001",
+      "status": "idle",
+      "currentTasks": [],
+      "completedTasks": 1,
+      "failedTasks": 1,
+      "totalTokensUsed": 287,
+      "lastActiveAt": "2025-07-27T07:04:30.606Z"
+    },
+    "history": [],
+    "capabilities": [
+      "planning",
+      "project_management"
+    ]
+  }
+}

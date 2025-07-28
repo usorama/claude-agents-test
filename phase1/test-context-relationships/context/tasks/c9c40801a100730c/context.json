@@ -1,0 +1,19 @@
+{
+  "id": "c9c40801a100730c",
+  "level": "task",
+  "parentId": "6033e08b895dbc8c",
+  "metadata": {
+    "createdAt": "2025-07-28T06:20:36.649Z",
+    "updatedAt": "2025-07-28T06:20:36.649Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "taskId": "test-task",
+    "taskType": "relationship-test",
+    "input": {
+      "testData": "Parent-child relationship test"
+    },
+    "status": "completed"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "agentType": "BaseAgent",
+  "description": "Schema for BaseAgent",
+  "schemaDefinition": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

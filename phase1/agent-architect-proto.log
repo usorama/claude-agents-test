@@ -1,0 +1,1 @@
+{"agent":"architect-proto","level":"error","message":"Safety violation prevented task execution","taskId":"design-calc-api","timestamp":"2025-07-28T05:30:43.282Z","type":"ArchitectAgent","violations":[{"message":"Tool 'system-design' is not allowed","severity":"CRITICAL","tool":"system-design","type":"ACTION_FORBIDDEN"}]}

@@ -1,0 +1,34 @@
+{
+  "id": "5036a8cff4c831fa",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:08:49.661Z",
+    "updatedAt": "2025-07-27T08:08:49.665Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLEDTKT-9F6H",
+    "taskType": "create-full-stack-architecture",
+    "input": {
+      "projectName": "New Project",
+      "requirements": [
+        "Monitor system health"
+      ]
+    },
+    "output": {
+      "taskId": "TASK-MDLEDTKT-9F6H",
+      "agentId": "architect-001",
+      "status": "failure",
+      "output": null,
+      "metrics": {
+        "duration": 3,
+        "tokensUsed": 0,
+        "toolInvocations": 0
+      },
+      "error": "infrastructure is not defined"
+    },
+    "status": "completed"
+  }
+}

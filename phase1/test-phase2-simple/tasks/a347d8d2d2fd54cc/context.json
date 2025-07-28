@@ -1,0 +1,179 @@
+{
+  "id": "a347d8d2d2fd54cc",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:08:49.681Z",
+    "updatedAt": "2025-07-27T08:08:49.681Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLEDTLC-55AB",
+    "taskType": "monitor-progress",
+    "input": {
+      "includeMetrics": true
+    },
+    "output": {
+      "activeWorkflows": 0,
+      "queuedTasks": 0,
+      "pendingTasks": 0,
+      "workflows": [],
+      "metrics": {
+        "agents": {
+          "analyst": {
+            "agentId": "analyst-001",
+            "status": "idle",
+            "currentTasks": [],
+            "completedTasks": 1,
+            "failedTasks": 0,
+            "totalTokensUsed": 218,
+            "lastActiveAt": "2025-07-27T08:08:49.643Z",
+            "uptime": 51,
+            "sessionTokens": 218,
+            "metrics": {
+              "avgTaskDuration": 51,
+              "successRate": 1,
+              "tokenEfficiency": 218
+            }
+          },
+          "pm": {
+            "agentId": "pm-001",
+            "status": "idle",
+            "currentTasks": [],
+            "completedTasks": 0,
+            "failedTasks": 1,
+            "totalTokensUsed": 0,
+            "lastActiveAt": "2025-07-27T08:08:49.648Z",
+            "uptime": 51,
+            "sessionTokens": 0,
+            "metrics": {
+              "avgTaskDuration": 0,
+              "successRate": 0,
+              "tokenEfficiency": 0
+            }
+          },
+          "architect": {
+            "agentId": "architect-001",
+            "status": "idle",
+            "currentTasks": [],
+            "completedTasks": 0,
+            "failedTasks": 2,
+            "totalTokensUsed": 0,
+            "lastActiveAt": "2025-07-27T08:08:49.662Z",
+            "uptime": 50,
+            "sessionTokens": 0,
+            "metrics": {
+              "avgTaskDuration": 0,
+              "successRate": 0,
+              "tokenEfficiency": 0
+            }
+          },
+          "developer": {
+            "agentId": "developer-001",
+            "status": "idle",
+            "currentTasks": [],
+            "completedTasks": 1,
+            "failedTasks": 0,
+            "totalTokensUsed": 91,
+            "lastActiveAt": "2025-07-27T08:08:49.669Z",
+            "uptime": 50,
+            "sessionTokens": 91,
+            "metrics": {
+              "avgTaskDuration": 50,
+              "successRate": 1,
+              "tokenEfficiency": 91
+            }
+          },
+          "qa": {
+            "agentId": "qa-001",
+            "status": "idle",
+            "currentTasks": [],
+            "completedTasks": 1,
+            "failedTasks": 0,
+            "totalTokensUsed": 150,
+            "lastActiveAt": "2025-07-27T08:08:49.671Z",
+            "uptime": 50,
+            "sessionTokens": 150,
+            "metrics": {
+              "avgTaskDuration": 50,
+              "successRate": 1,
+              "tokenEfficiency": 150
+            }
+          },
+          "devops": {
+            "agentId": "devops-001",
+            "status": "idle",
+            "currentTasks": [],
+            "completedTasks": 1,
+            "failedTasks": 0,
+            "totalTokensUsed": 241,
+            "lastActiveAt": "2025-07-27T08:08:49.673Z",
+            "uptime": 50,
+            "sessionTokens": 241,
+            "metrics": {
+              "avgTaskDuration": 50,
+              "successRate": 1,
+              "tokenEfficiency": 241
+            }
+          },
+          "git_manager": {
+            "agentId": "git-manager-001",
+            "status": "idle",
+            "currentTasks": [],
+            "completedTasks": 1,
+            "failedTasks": 0,
+            "totalTokensUsed": 111,
+            "lastActiveAt": "2025-07-27T08:08:49.675Z",
+            "uptime": 50,
+            "sessionTokens": 111,
+            "metrics": {
+              "avgTaskDuration": 50,
+              "successRate": 1,
+              "tokenEfficiency": 111
+            }
+          },
+          "monitor": {
+            "agentId": "monitor-001",
+            "status": "idle",
+            "currentTasks": [],
+            "completedTasks": 1,
+            "failedTasks": 0,
+            "totalTokensUsed": 38,
+            "lastActiveAt": "2025-07-27T08:08:49.677Z",
+            "uptime": 50,
+            "sessionTokens": 38,
+            "metrics": {
+              "avgTaskDuration": 50,
+              "successRate": 1,
+              "tokenEfficiency": 38
+            }
+          },
+          "self_healer": {
+            "agentId": "self-healer-001",
+            "status": "idle",
+            "currentTasks": [],
+            "completedTasks": 1,
+            "failedTasks": 0,
+            "totalTokensUsed": 56,
+            "lastActiveAt": "2025-07-27T08:08:49.679Z",
+            "uptime": 49,
+            "sessionTokens": 56,
+            "metrics": {
+              "avgTaskDuration": 49,
+              "successRate": 1,
+              "tokenEfficiency": 56
+            }
+          }
+        },
+        "system": {
+          "uptime": 53,
+          "totalTasks": 9,
+          "successRate": 1
+        }
+      }
+    },
+    "status": "completed",
+    "progress": 100
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "36e7064d7d968c68",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T06:21:41.454Z",
+    "updatedAt": "2025-07-28T06:21:41.454Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "agentId": "devops-ai-tutor",
+    "agentType": "DevOpsAgent",
+    "state": {
+      "agentId": "devops-ai-tutor",
+      "status": "idle",
+      "currentTasks": [],
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "lastActiveAt": "2025-07-28T06:21:41.454Z"
+    },
+    "history": [],
+    "capabilities": [
+      "deployment",
+      "monitoring",
+      "version_control"
+    ]
+  }
+}

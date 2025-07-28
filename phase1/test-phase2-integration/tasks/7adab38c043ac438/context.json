@@ -1,0 +1,37 @@
+{
+  "id": "7adab38c043ac438",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:03:27.335Z",
+    "updatedAt": "2025-07-27T08:03:27.337Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLE6WVB-ST8C",
+    "taskType": "execute-workflow",
+    "input": {
+      "workflowId": "product-development",
+      "input": {
+        "request": "Build a complete feature with development, testing, and deployment",
+        "context": {
+          "projectName": "TestFeature",
+          "targetUsers": [
+            "developers"
+          ],
+          "goals": [
+            "Complete implementation"
+          ],
+          "requirements": [
+            "Must have tests",
+            "Must be deployable"
+          ]
+        }
+      }
+    },
+    "status": "failed",
+    "progress": 0,
+    "error": "Cannot read properties of undefined (reading '0')"
+  }
+}

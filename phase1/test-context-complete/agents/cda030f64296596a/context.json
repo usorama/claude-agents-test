@@ -1,0 +1,30 @@
+{
+  "id": "cda030f64296596a",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T09:26:31.219Z",
+    "updatedAt": "2025-07-28T09:26:31.219Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "agentId": "self-healer-001",
+    "agentType": "SelfHealerAgent",
+    "state": {
+      "agentId": "self-healer-001",
+      "status": "idle",
+      "currentTasks": [],
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "lastActiveAt": "2025-07-28T09:26:31.213Z"
+    },
+    "history": [],
+    "capabilities": [
+      "monitoring",
+      "debugging",
+      "deployment"
+    ]
+  }
+}

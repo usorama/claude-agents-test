@@ -1,0 +1,26 @@
+{
+  "topic": "Claude Code agent systems",
+  "sources": [
+    {
+      "url": "https://example.com/source-0",
+      "title": "Research Source 0 for Claude Code agent systems",
+      "relevance": 0.0730787652099576
+    },
+    {
+      "url": "https://example.com/source-1",
+      "title": "Research Source 1 for Claude Code agent systems",
+      "relevance": 0.872814869986476
+    },
+    {
+      "url": "https://example.com/source-2",
+      "title": "Research Source 2 for Claude Code agent systems",
+      "relevance": 0.04473850443557814
+    }
+  ],
+  "findings": [
+    "Key finding 1 about Claude Code agent systems",
+    "Key finding 2 about Claude Code agent systems",
+    "Key finding 3 about Claude Code agent systems"
+  ],
+  "timestamp": "2025-07-27T06:14:01.494Z"
+}

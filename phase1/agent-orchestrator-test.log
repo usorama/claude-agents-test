@@ -1,0 +1,28 @@
+{"agent":"orchestrator-test","capabilities":["planning","project_management"],"level":"info","message":"Agent initialized","timestamp":"2025-07-27T13:33:49.397Z","tools":["Task","TodoWrite"],"type":"OrchestratorAgent"}
+{"agent":"orchestrator-test","capabilities":["planning","project_management"],"level":"info","message":"Agent initialized","timestamp":"2025-07-27T14:24:01.852Z","tools":["Task","TodoWrite"],"type":"OrchestratorAgent"}
+{"agent":"orchestrator-test","id":"analyst-001","level":"info","message":"Agent registered","timestamp":"2025-07-27T14:24:01.859Z","type":"AnalystAgent"}
+{"agent":"orchestrator-test","id":"pm-001","level":"info","message":"Agent registered","timestamp":"2025-07-27T14:24:01.861Z","type":"PMAgent"}
+{"agent":"orchestrator-test","id":"architect-001","level":"info","message":"Agent registered","timestamp":"2025-07-27T14:24:01.863Z","type":"ArchitectAgent"}
+{"agent":"orchestrator-test","id":"developer-001","level":"info","message":"Agent registered","timestamp":"2025-07-27T14:24:01.864Z","type":"DeveloperAgent"}
+{"agent":"orchestrator-test","id":"qa-001","level":"info","message":"Agent registered","timestamp":"2025-07-27T14:24:01.865Z","type":"QAAgent"}
+{"agent":"orchestrator-test","id":"devops-001","level":"info","message":"Agent registered","timestamp":"2025-07-27T14:24:01.865Z","type":"DevOpsAgent"}
+{"agent":"orchestrator-test","id":"git-manager-001","level":"info","message":"Agent registered","timestamp":"2025-07-27T14:24:01.866Z","type":"GitManagerAgent"}
+{"agent":"orchestrator-test","id":"monitor-001","level":"info","message":"Agent registered","timestamp":"2025-07-27T14:24:01.866Z","type":"MonitorAgent"}
+{"agent":"orchestrator-test","id":"self-healer-001","level":"info","message":"Agent registered","timestamp":"2025-07-27T14:24:01.867Z","type":"SelfHealerAgent"}
+{"agent":"orchestrator-test","level":"info","message":"Workflow patterns initialized","patterns":["orchestrator-workers","router","pipeline"],"timestamp":"2025-07-27T14:24:01.868Z","type":"OrchestratorAgent"}
+{"agent":"orchestrator-test","agents":["AnalystAgent","PMAgent","ArchitectAgent","DeveloperAgent","QAAgent","DevOpsAgent","GitManagerAgent","MonitorAgent","SelfHealerAgent"],"level":"info","message":"Orchestrator initialized","patterns":["orchestrator-workers","router","pipeline"],"timestamp":"2025-07-27T14:24:01.869Z","type":"OrchestratorAgent","workflows":["product-development","brownfield-modernization","emergency-response"]}
+{"agent":"orchestrator-test","level":"error","message":"Safety violation prevented task execution","taskId":"TASK-MDLRSC3X-KQGH","timestamp":"2025-07-27T14:24:01.869Z","type":"OrchestratorAgent","violations":[{"message":"Tool 'execute-pattern' is not allowed","severity":"CRITICAL","tool":"execute-pattern","type":"ACTION_FORBIDDEN"}]}
+{"agent":"orchestrator-test","capabilities":["planning","project_management"],"level":"info","message":"Agent initialized","timestamp":"2025-07-27T14:27:39.435Z","tools":["Task","TodoWrite"],"type":"OrchestratorAgent"}
+{"agent":"orchestrator-test","id":"analyst-001","level":"info","message":"Agent registered","timestamp":"2025-07-27T14:27:39.441Z","type":"AnalystAgent"}
+{"agent":"orchestrator-test","id":"pm-001","level":"info","message":"Agent registered","timestamp":"2025-07-27T14:27:39.443Z","type":"PMAgent"}
+{"agent":"orchestrator-test","id":"architect-001","level":"info","message":"Agent registered","timestamp":"2025-07-27T14:27:39.444Z","type":"ArchitectAgent"}
+{"agent":"orchestrator-test","id":"developer-001","level":"info","message":"Agent registered","timestamp":"2025-07-27T14:27:39.444Z","type":"DeveloperAgent"}
+{"agent":"orchestrator-test","id":"qa-001","level":"info","message":"Agent registered","timestamp":"2025-07-27T14:27:39.445Z","type":"QAAgent"}
+{"agent":"orchestrator-test","id":"devops-001","level":"info","message":"Agent registered","timestamp":"2025-07-27T14:27:39.446Z","type":"DevOpsAgent"}
+{"agent":"orchestrator-test","id":"git-manager-001","level":"info","message":"Agent registered","timestamp":"2025-07-27T14:27:39.446Z","type":"GitManagerAgent"}
+{"agent":"orchestrator-test","id":"monitor-001","level":"info","message":"Agent registered","timestamp":"2025-07-27T14:27:39.447Z","type":"MonitorAgent"}
+{"agent":"orchestrator-test","id":"self-healer-001","level":"info","message":"Agent registered","timestamp":"2025-07-27T14:27:39.447Z","type":"SelfHealerAgent"}
+{"agent":"orchestrator-test","level":"info","message":"Workflow patterns initialized","patterns":["orchestrator-workers","router","pipeline"],"timestamp":"2025-07-27T14:27:39.448Z","type":"OrchestratorAgent"}
+{"agent":"orchestrator-test","agents":["AnalystAgent","PMAgent","ArchitectAgent","DeveloperAgent","QAAgent","DevOpsAgent","GitManagerAgent","MonitorAgent","SelfHealerAgent"],"level":"info","message":"Orchestrator initialized","patterns":["orchestrator-workers","router","pipeline"],"timestamp":"2025-07-27T14:27:39.449Z","type":"OrchestratorAgent","workflows":["product-development","brownfield-modernization","emergency-response"]}
+{"agent":"orchestrator-test","level":"error","message":"Safety violation prevented task execution","taskId":"test-exec-1","timestamp":"2025-07-27T14:27:39.449Z","type":"OrchestratorAgent","violations":[{"message":"Tool 'delegate-task' is not allowed","severity":"CRITICAL","tool":"delegate-task","type":"ACTION_FORBIDDEN"}]}
+{"agent":"orchestrator-test","level":"info","message":"Agent shutting down","timestamp":"2025-07-27T14:27:39.450Z","type":"OrchestratorAgent"}

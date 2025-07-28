@@ -1,0 +1,40 @@
+{
+  "id": "762096fd66d3d88d",
+  "level": "task",
+  "parentId": "f9d0dbdaab8ad3ed",
+  "metadata": {
+    "createdAt": "2025-07-28T06:21:46.474Z",
+    "updatedAt": "2025-07-28T06:21:51.500Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "design-ai-tutor-architecture",
+    "taskType": "system-architecture",
+    "input": {
+      "requirements": "Based on analyst findings, design complete system architecture",
+      "components": [
+        "Next.js 15 App Router structure with RSC patterns",
+        "PDF processing pipeline (upload → parse → chapter extraction)",
+        "AI integration layer with Vertex AI security boundaries",
+        "Real-time streaming architecture for chat responses",
+        "Client-side PDF rendering with pdf.js integration",
+        "State management strategy with Zustand",
+        "Component architecture with shadcn/ui patterns"
+      ],
+      "patterns": [
+        "Server Actions for all mutations",
+        "React Server Components for data fetching",
+        "Streaming responses with Suspense boundaries",
+        "Progressive enhancement patterns"
+      ],
+      "security": [
+        "Server-only AI SDK access",
+        "Environment variable management",
+        "Input validation and sanitization",
+        "File upload security"
+      ]
+    },
+    "status": "completed"
+  }
+}

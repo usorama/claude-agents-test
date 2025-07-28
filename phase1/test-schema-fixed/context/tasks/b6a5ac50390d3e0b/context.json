@@ -1,0 +1,19 @@
+{
+  "id": "b6a5ac50390d3e0b",
+  "level": "task",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T06:12:50.385Z",
+    "updatedAt": "2025-07-28T06:12:50.386Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "transition-blocked-running",
+    "taskType": "transition-test",
+    "input": {
+      "testData": "Status transition test"
+    },
+    "status": "running"
+  }
+}

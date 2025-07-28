@@ -1,0 +1,42 @@
+{
+  "id": "f87ea9a1e891a6da",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T05:23:35.056Z",
+    "updatedAt": "2025-07-28T05:23:35.056Z",
+    "version": 1,
+    "tags": [],
+    "summarized": true,
+    "summarizedAt": "2025-07-28T05:25:05.092Z",
+    "originalSize": 439,
+    "compressionLevel": "high",
+    "preserveRatio": 1,
+    "compressedSize": 630,
+    "compressionRatio": 1.4350797266514805
+  },
+  "data": {
+    "agentId": "qa-001",
+    "agentType": "QAAgent",
+    "state": {
+      "status": "idle",
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "currentTasks": [],
+      "agentId": "qa-001",
+      "lastActiveAt": "2025-07-28T05:23:35.050Z"
+    },
+    "capabilities": [
+      "testing",
+      "review",
+      "quality"
+    ],
+    "history": [],
+    "historySummary": {
+      "totalEntries": 0,
+      "preserved": 0,
+      "summarized": true
+    }
+  }
+}

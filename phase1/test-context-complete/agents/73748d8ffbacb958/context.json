@@ -1,0 +1,30 @@
+{
+  "id": "73748d8ffbacb958",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T09:26:31.217Z",
+    "updatedAt": "2025-07-28T09:26:31.217Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "agentId": "developer-001",
+    "agentType": "DeveloperAgent",
+    "state": {
+      "agentId": "developer-001",
+      "status": "idle",
+      "currentTasks": [],
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "lastActiveAt": "2025-07-28T09:26:31.210Z"
+    },
+    "history": [],
+    "capabilities": [
+      "development",
+      "testing",
+      "debugging"
+    ]
+  }
+}

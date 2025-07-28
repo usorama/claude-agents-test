@@ -1,0 +1,24 @@
+{
+  "id": "a74c01ea8456190c",
+  "level": "task",
+  "parentId": "architect-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:08:49.654Z",
+    "updatedAt": "2025-07-27T08:08:49.655Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLEDTKL-3MWC",
+    "taskType": "create-full-stack-architecture",
+    "input": {
+      "projectName": "New Project",
+      "requirements": [
+        "Design system architecture"
+      ]
+    },
+    "status": "failed",
+    "progress": 0,
+    "error": "infrastructure is not defined"
+  }
+}

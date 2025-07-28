@@ -1,0 +1,24 @@
+{
+  "id": "a964a9a433307545",
+  "level": "task",
+  "parentId": "architect-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:08:49.663Z",
+    "updatedAt": "2025-07-27T08:08:49.664Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLEDTKT-9F6H",
+    "taskType": "create-full-stack-architecture",
+    "input": {
+      "projectName": "New Project",
+      "requirements": [
+        "Monitor system health"
+      ]
+    },
+    "status": "failed",
+    "progress": 0,
+    "error": "infrastructure is not defined"
+  }
+}

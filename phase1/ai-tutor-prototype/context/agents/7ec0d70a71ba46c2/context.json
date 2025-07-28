@@ -1,0 +1,30 @@
+{
+  "id": "7ec0d70a71ba46c2",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T06:21:41.453Z",
+    "updatedAt": "2025-07-28T06:21:41.453Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "agentId": "qa-ai-tutor",
+    "agentType": "QAAgent",
+    "state": {
+      "agentId": "qa-ai-tutor",
+      "status": "idle",
+      "currentTasks": [],
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "lastActiveAt": "2025-07-28T06:21:41.452Z"
+    },
+    "history": [],
+    "capabilities": [
+      "testing",
+      "review",
+      "quality"
+    ]
+  }
+}

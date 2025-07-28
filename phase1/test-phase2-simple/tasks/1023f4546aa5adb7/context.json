@@ -1,0 +1,60 @@
+{
+  "id": "1023f4546aa5adb7",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:08:49.643Z",
+    "updatedAt": "2025-07-27T08:08:49.646Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLEDTKB-QLLL",
+    "taskType": "research-prompt",
+    "input": {
+      "topic": "Research market trends"
+    },
+    "output": {
+      "taskId": "TASK-MDLEDTKB-QLLL",
+      "agentId": "analyst-001",
+      "status": "success",
+      "output": {
+        "prompt": {
+          "topic": "Research market trends",
+          "objective": "Conduct deep research on Research market trends",
+          "researchQuestions": [
+            "What is the current state of Research market trends?",
+            "What are the key challenges in Research market trends?",
+            "What opportunities exist in Research market trends?"
+          ],
+          "methodology": {
+            "approach": "Comprehensive",
+            "methods": [
+              "Literature review",
+              "Market analysis",
+              "Expert interviews"
+            ]
+          },
+          "expectedOutputs": [
+            "Executive summary",
+            "Detailed findings",
+            "Recommendations"
+          ],
+          "sources": [
+            "Academic journals",
+            "Industry reports",
+            "News articles"
+          ],
+          "timeline": "2-3 weeks"
+        },
+        "formatted": "Research Prompt: Research market trends\n\nObjective: Conduct deep research on Research market trends\n\nQuestions:\nWhat is the current state of Research market trends?\nWhat are the key challenges in Research market trends?\nWhat opportunities exist in Research market trends?"
+      },
+      "metrics": {
+        "duration": 2,
+        "tokensUsed": 218,
+        "toolInvocations": 0
+      }
+    },
+    "status": "completed"
+  }
+}

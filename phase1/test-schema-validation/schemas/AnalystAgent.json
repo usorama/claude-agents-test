@@ -1,0 +1,9 @@
+{
+  "agentType": "AnalystAgent",
+  "description": "Schema for AnalystAgent",
+  "schemaDefinition": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3378af09c36fc404",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T13:01:56.492Z",
+    "updatedAt": "2025-07-28T13:01:56.492Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "agentId": "integration-test-analyst",
+    "agentType": "AnalystAgent",
+    "state": {
+      "agentId": "integration-test-analyst",
+      "status": "idle",
+      "currentTasks": [],
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "lastActiveAt": "2025-07-28T13:01:56.490Z"
+    },
+    "history": [],
+    "capabilities": [
+      "research",
+      "planning",
+      "documentation"
+    ]
+  }
+}

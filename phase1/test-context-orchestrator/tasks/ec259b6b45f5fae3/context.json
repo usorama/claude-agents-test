@@ -1,0 +1,24 @@
+{
+  "id": "ec259b6b45f5fae3",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T07:02:43.845Z",
+    "updatedAt": "2025-07-27T07:02:43.847Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLC0TJ8-122Z",
+    "taskType": "analyze-request",
+    "input": {
+      "request": "Research the market for AI development tools",
+      "context": {
+        "project": "test-project"
+      }
+    },
+    "status": "failed",
+    "progress": 0,
+    "error": "[\n  {\n    \"received\": \"assigned\",\n    \"code\": \"invalid_enum_value\",\n    \"options\": [\n      \"pending\",\n      \"running\",\n      \"completed\",\n      \"failed\"\n    ],\n    \"path\": [\n      \"data\",\n      \"status\"\n    ],\n    \"message\": \"Invalid enum value. Expected 'pending' | 'running' | 'completed' | 'failed', received 'assigned'\"\n  }\n]"
+  }
+}

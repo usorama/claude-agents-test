@@ -1,0 +1,30 @@
+{
+  "id": "77e9494c00df773e",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T05:30:43.279Z",
+    "updatedAt": "2025-07-28T05:30:43.284Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "agentId": "qa-proto",
+    "agentType": "QAAgent",
+    "state": {
+      "agentId": "qa-proto",
+      "status": "idle",
+      "currentTasks": [],
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "lastActiveAt": "2025-07-28T05:30:43.279Z"
+    },
+    "history": [],
+    "capabilities": [
+      "testing",
+      "review",
+      "quality"
+    ]
+  }
+}

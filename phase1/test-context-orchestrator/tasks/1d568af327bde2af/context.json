@@ -1,0 +1,49 @@
+{
+  "id": "1d568af327bde2af",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T07:02:43.898Z",
+    "updatedAt": "2025-07-27T07:02:43.899Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "test-pipeline-1",
+    "taskType": "coordinate-agents",
+    "input": {
+      "agents": [
+        "analyst",
+        "pm",
+        "architect"
+      ],
+      "tasks": [
+        {
+          "type": "research-prompt",
+          "input": {
+            "topic": "Mobile app trends"
+          }
+        },
+        {
+          "type": "create-prd",
+          "input": {
+            "projectName": "MobileApp"
+          }
+        },
+        {
+          "type": "create-full-stack-architecture",
+          "input": {
+            "projectName": "MobileApp"
+          }
+        }
+      ],
+      "coordination": "pipeline",
+      "initialData": {
+        "context": "Mobile application project"
+      }
+    },
+    "status": "failed",
+    "progress": 0,
+    "error": "[\n  {\n    \"received\": \"assigned\",\n    \"code\": \"invalid_enum_value\",\n    \"options\": [\n      \"pending\",\n      \"running\",\n      \"completed\",\n      \"failed\"\n    ],\n    \"path\": [\n      \"data\",\n      \"status\"\n    ],\n    \"message\": \"Invalid enum value. Expected 'pending' | 'running' | 'completed' | 'failed', received 'assigned'\"\n  }\n]"
+  }
+}

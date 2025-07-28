@@ -1,0 +1,19 @@
+{
+  "id": "7e9a4dfb0847f556",
+  "level": "task",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T06:12:50.381Z",
+    "updatedAt": "2025-07-28T06:12:50.382Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "transition-assigned-running",
+    "taskType": "transition-test",
+    "input": {
+      "testData": "Status transition test"
+    },
+    "status": "running"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "1b8ce180bd036b43",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:08:49.648Z",
+    "updatedAt": "2025-07-27T08:08:49.651Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLEDTKG-QUGI",
+    "taskType": "create-prd",
+    "input": {
+      "projectName": "New Project",
+      "requirements": "Create a product roadmap"
+    },
+    "output": {
+      "taskId": "TASK-MDLEDTKG-QUGI",
+      "agentId": "pm-001",
+      "status": "failure",
+      "output": null,
+      "metrics": {
+        "duration": 3,
+        "tokensUsed": 0,
+        "toolInvocations": 0
+      },
+      "error": "Cannot read properties of undefined (reading 'slice')"
+    },
+    "status": "completed"
+  }
+}

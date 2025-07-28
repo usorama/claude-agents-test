@@ -1,0 +1,36 @@
+{
+  "id": "1295b445140ca3ab",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T07:02:43.858Z",
+    "updatedAt": "2025-07-27T07:02:43.860Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLC0TJM-E4BP",
+    "taskType": "execute-workflow",
+    "input": {
+      "workflowId": "product-development",
+      "input": {
+        "request": "Build a task management application",
+        "context": {
+          "projectName": "TaskMaster",
+          "targetUsers": [
+            "developers",
+            "project managers"
+          ],
+          "goals": [
+            "Track tasks",
+            "Manage deadlines",
+            "Collaborate"
+          ]
+        }
+      }
+    },
+    "status": "failed",
+    "progress": 0,
+    "error": "Cannot read properties of undefined (reading '0')"
+  }
+}

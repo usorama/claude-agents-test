@@ -1,0 +1,17 @@
+{"baseDir":"./poc-context","level":"info","message":"Context Manager initialized","timestamp":"2025-07-27T06:13:45.136Z"}
+{"baseDir":"./poc-context","level":"info","message":"Context Manager initialized","timestamp":"2025-07-27T06:13:45.136Z"}
+{"agentId":"analyst-001","contextType":"state","error":"ENOENT: no such file or directory, open 'poc-context/agents/analyst-001/state.json.tmp'","level":"error","message":"Failed to save context","timestamp":"2025-07-27T06:13:45.138Z"}
+{"baseDir":"./poc-context","level":"info","message":"Context Manager initialized","timestamp":"2025-07-27T06:14:01.492Z"}
+{"baseDir":"./poc-context","level":"info","message":"Context Manager initialized","timestamp":"2025-07-27T06:14:01.493Z"}
+{"agentId":"analyst-001","contextType":"state","duration":1,"level":"info","message":"Context saved","size":1394,"timestamp":"2025-07-27T06:14:01.496Z"}
+{"agentId":"analyst-001","contextType":"state","duration":0,"level":"info","message":"Context saved","size":2366,"timestamp":"2025-07-27T06:14:01.496Z"}
+{"contextType":"shared","fromAgentId":"analyst-001","level":"info","message":"Context shared","shareId":"0dc63b25a8688373","timestamp":"2025-07-27T06:14:01.497Z","toAgentId":"pm-001"}
+{"agentId":"analyst-001","contextType":"state","duration":0,"level":"info","message":"Context saved","size":3936,"timestamp":"2025-07-27T06:14:01.497Z"}
+{"baseDir":"./test-context","level":"info","message":"Context Manager initialized","timestamp":"2025-07-27T06:14:12.521Z"}
+{"baseDir":"./test-context","level":"info","message":"Context Manager initialized","timestamp":"2025-07-27T06:14:12.524Z"}
+{"agentId":"test-agent","contextType":"state","duration":1,"level":"info","message":"Context saved","size":50,"timestamp":"2025-07-27T06:14:12.525Z"}
+{"agentId":"test-agent","contextType":"state","duration":0,"level":"info","message":"Context loaded","size":50,"timestamp":"2025-07-27T06:14:12.525Z"}
+{"baseDir":"./test-context","level":"info","message":"Context Manager initialized","timestamp":"2025-07-27T06:14:12.527Z"}
+{"agentId":"test-agent","contextType":"state","error":"Context size 216 exceeds limit 100","level":"error","message":"Failed to save context","timestamp":"2025-07-27T06:14:12.527Z"}
+{"baseDir":"./test-context","level":"info","message":"Context Manager initialized","timestamp":"2025-07-27T06:14:12.529Z"}
+{"contextType":"test","fromAgentId":"agent1","level":"info","message":"Context shared","shareId":"243ada75e59739ad","timestamp":"2025-07-27T06:14:12.530Z","toAgentId":"agent2"}

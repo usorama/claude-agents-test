@@ -1,0 +1,1 @@
+{"agent":"analyst-proto","level":"error","message":"Safety violation prevented task execution","taskId":"analyze-calc-api","timestamp":"2025-07-28T05:30:43.281Z","type":"AnalystAgent","violations":[{"message":"Tool 'requirements-analysis' is not allowed","severity":"CRITICAL","tool":"requirements-analysis","type":"ACTION_FORBIDDEN"}]}

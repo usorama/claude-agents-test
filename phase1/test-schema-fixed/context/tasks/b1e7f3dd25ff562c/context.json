@@ -1,0 +1,20 @@
+{
+  "id": "b1e7f3dd25ff562c",
+  "level": "task",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T06:12:50.368Z",
+    "updatedAt": "2025-07-28T06:12:50.370Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "test-task-assigned",
+    "taskType": "validation-test",
+    "input": {
+      "testData": "Schema validation test"
+    },
+    "status": "completed",
+    "progress": 50
+  }
+}

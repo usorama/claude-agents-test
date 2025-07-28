@@ -1,0 +1,19 @@
+{
+  "id": "f00ba4c2880ec505",
+  "level": "task",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T06:12:50.382Z",
+    "updatedAt": "2025-07-28T06:12:50.383Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "transition-running-in-progress",
+    "taskType": "transition-test",
+    "input": {
+      "testData": "Status transition test"
+    },
+    "status": "in-progress"
+  }
+}

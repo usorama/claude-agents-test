@@ -1,0 +1,35 @@
+{
+  "id": "7b2b918ac036274d",
+  "level": "task",
+  "parentId": "self-healer-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:08:49.679Z",
+    "updatedAt": "2025-07-27T08:08:49.680Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "test-healer",
+    "taskType": "create-runbook",
+    "input": {
+      "title": "Test Runbook",
+      "scenario": "Test",
+      "steps": []
+    },
+    "output": {
+      "runbook": {
+        "id": "runbook-1753603729680",
+        "title": "Test Runbook",
+        "scenario": "Test",
+        "severity": "medium",
+        "automatable": true,
+        "steps": [],
+        "validations": [],
+        "rollback": []
+      },
+      "summary": "Created runbook \"Test Runbook\" with 0 steps"
+    },
+    "status": "completed",
+    "progress": 100
+  }
+}

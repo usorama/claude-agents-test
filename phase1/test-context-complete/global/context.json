@@ -1,0 +1,14 @@
+{
+  "id": "global",
+  "level": "global",
+  "metadata": {
+    "createdAt": "2025-07-27T07:03:56.137Z",
+    "updatedAt": "2025-07-27T07:03:56.138Z",
+    "version": 1
+  },
+  "data": {
+    "systemConfig": {},
+    "activeProjects": [],
+    "globalState": {}
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "a0bb83679014054e",
+  "level": "task",
+  "parentId": "f9d0dbdaab8ad3ed",
+  "metadata": {
+    "createdAt": "2025-07-28T06:21:51.500Z",
+    "updatedAt": "2025-07-28T06:21:56.507Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "implement-ai-tutor-complete",
+    "taskType": "full-stack-development",
+    "input": {
+      "specification": "Implement complete AI Tutor prototype based on architecture",
+      "structure": {
+        "app/": "Next.js 15 App Router with dynamic classroom routes",
+        "components/ui/": "shadcn/ui primitive components",
+        "components/shared/": "Custom AI Tutor specific components",
+        "lib/": "Core utilities, AI SDK, and Server Actions",
+        "hooks/": "Custom React hooks for client-side logic"
+      },
+      "keyComponents": [
+        "PDF upload and processing Server Action",
+        "Chapter-based classroom dynamic routes",
+        "AI chat interface with streaming responses",
+        "PDF viewer component with pdf.js",
+        "Responsive split-pane layout",
+        "Real-time chat with optimistic updates"
+      ],
+      "integrations": [
+        "Vertex AI with @google/genai SDK setup",
+        "PDF processing with pdf-parse library",
+        "Client-side PDF rendering with pdf.js",
+        "Zustand store for chat state management",
+        "shadcn/ui component installation and customization"
+      ],
+      "deliverables": [
+        "Complete Next.js 15 project structure",
+        "All source code files with TypeScript",
+        "Configuration files (next.config, tailwind.config, etc.)",
+        "Package.json with all dependencies",
+        "Environment variable documentation",
+        "Development and build scripts"
+      ]
+    },
+    "status": "completed"
+  }
+}

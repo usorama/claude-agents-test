@@ -1,0 +1,9 @@
+{
+  "agentType": "MonitorAgent",
+  "description": "Schema for MonitorAgent",
+  "schemaDefinition": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

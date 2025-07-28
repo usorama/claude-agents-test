@@ -1,0 +1,94 @@
+{
+  "timestamp": "2025-07-28T13:13:17.828Z",
+  "performanceReport": {
+    "timestamp": "2025-07-28T13:13:17.828Z",
+    "executionPaths": [
+      {
+        "functionName": "testFunction",
+        "callCount": 1,
+        "totalDuration": 51.757874999999785,
+        "averageDuration": 51.757874999999785,
+        "errorCount": 0,
+        "maxDuration": 51.757874999999785,
+        "minDuration": 51.757874999999785
+      },
+      {
+        "functionName": "failingFunction",
+        "callCount": 1,
+        "totalDuration": 0.054124999999885404,
+        "averageDuration": 0.054124999999885404,
+        "errorCount": 1,
+        "maxDuration": 0.054124999999885404,
+        "minDuration": 0.054124999999885404
+      }
+    ],
+    "memoryStats": null,
+    "activeTraces": 0,
+    "activeProfiles": 0,
+    "watchedVariables": 2
+  },
+  "executionPaths": [
+    [
+      "testFunction",
+      {
+        "functionName": "testFunction",
+        "callCount": 1,
+        "totalDuration": 51.757874999999785,
+        "averageDuration": 51.757874999999785,
+        "errorCount": 0,
+        "maxDuration": 51.757874999999785,
+        "minDuration": 51.757874999999785
+      }
+    ],
+    [
+      "failingFunction",
+      {
+        "functionName": "failingFunction",
+        "callCount": 1,
+        "totalDuration": 0.054124999999885404,
+        "averageDuration": 0.054124999999885404,
+        "errorCount": 1,
+        "maxDuration": 0.054124999999885404,
+        "minDuration": 0.054124999999885404
+      }
+    ]
+  ],
+  "memoryHistory": [],
+  "activeTraces": [],
+  "watchedVariables": [
+    [
+      "testVar-test-function",
+      {
+        "name": "testVar",
+        "value": {
+          "count": 1,
+          "status": "updated"
+        },
+        "timestamp": 1753708397821,
+        "context": {
+          "scope": "test-function"
+        },
+        "changed": true
+      }
+    ],
+    [
+      "counter-global",
+      {
+        "name": "counter",
+        "value": 20,
+        "timestamp": 1753708397821,
+        "context": {},
+        "changed": true
+      }
+    ]
+  ],
+  "options": {
+    "enableTracing": true,
+    "enableProfiling": true,
+    "enableMemoryTracking": true,
+    "enableCallStackCapture": true,
+    "maxTraceDepth": 10,
+    "memoryCheckInterval": 30000,
+    "profileThreshold": 50
+  }
+}

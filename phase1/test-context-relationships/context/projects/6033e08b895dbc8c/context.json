@@ -1,0 +1,22 @@
+{
+  "id": "6033e08b895dbc8c",
+  "level": "project",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T06:20:31.631Z",
+    "updatedAt": "2025-07-28T06:20:41.656Z",
+    "version": 3,
+    "tags": []
+  },
+  "data": {
+    "projectName": "Test Project",
+    "projectPath": ".",
+    "config": {},
+    "activeAgents": [],
+    "sharedState": {},
+    "children": [
+      "c20f8b0b0d1c1aca",
+      "c9c40801a100730c"
+    ]
+  }
+}

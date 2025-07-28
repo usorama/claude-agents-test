@@ -1,0 +1,30 @@
+{
+  "id": "4fcd22ef8644350d",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-27T08:08:49.632Z",
+    "updatedAt": "2025-07-27T08:08:49.645Z",
+    "version": 3,
+    "tags": []
+  },
+  "data": {
+    "agentId": "analyst-001",
+    "agentType": "analyst",
+    "state": {
+      "agentId": "analyst-001",
+      "status": "idle",
+      "currentTasks": [],
+      "completedTasks": 1,
+      "failedTasks": 0,
+      "totalTokensUsed": 218,
+      "lastActiveAt": "2025-07-27T08:08:49.643Z"
+    },
+    "history": [],
+    "capabilities": [
+      "research",
+      "planning",
+      "documentation"
+    ]
+  }
+}

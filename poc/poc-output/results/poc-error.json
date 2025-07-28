@@ -1,0 +1,7 @@
+{
+  "success": false,
+  "error": "ENOENT: no such file or directory, open 'poc-context/agents/analyst-001/state.json.tmp'",
+  "stack": "Error: ENOENT: no such file or directory, open 'poc-context/agents/analyst-001/state.json.tmp'\n    at async open (node:internal/fs/promises:634:25)\n    at async Object.writeFile (node:internal/fs/promises:1208:14)\n    at async ContextManager.saveContext (file:///Users/umasankrudhya/Projects/claude-agents-test/poc/src/context/ContextManager.js:54:7)\n    at async AnalystAgent.execute (file:///Users/umasankrudhya/Projects/claude-agents-test/poc/src/agents/BaseAgent.js:74:7)\n    at async SimpleOrchestrator.executeWorkflow (file:///Users/umasankrudhya/Projects/claude-agents-test/poc/src/orchestrator/SimpleOrchestrator.js:56:24)\n    at async runPoC (file:///Users/umasankrudhya/Projects/claude-agents-test/poc/src/index.js:63:21)",
+  "timestamp": "2025-07-27T06:13:45.139Z",
+  "recommendation": "NO-GO - Critical issues need resolution"
+}

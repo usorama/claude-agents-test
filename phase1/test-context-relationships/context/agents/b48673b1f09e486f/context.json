@@ -1,0 +1,18 @@
+{
+  "id": "b48673b1f09e486f",
+  "level": "agent",
+  "parentId": "23b8a909d0c8a4f7",
+  "metadata": {
+    "createdAt": "2025-07-28T06:20:41.761Z",
+    "updatedAt": "2025-07-28T06:20:41.761Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "agentId": "child-agent-1",
+    "agentType": "ChildAgent",
+    "state": {},
+    "history": [],
+    "capabilities": []
+  }
+}

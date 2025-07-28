@@ -1,0 +1,58 @@
+{
+  "id": "043f4a4a8beb8ef4",
+  "level": "task",
+  "parentId": "qa-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:08:49.671Z",
+    "updatedAt": "2025-07-27T08:08:49.672Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "test-qa",
+    "taskType": "perform-code-review",
+    "input": {
+      "files": [
+        "test.js"
+      ],
+      "reviewType": "basic"
+    },
+    "output": {
+      "codeReview": {
+        "reviewType": "basic",
+        "files": [
+          {
+            "file": "test.js",
+            "issues": {
+              "blocker": [],
+              "critical": [],
+              "major": [],
+              "minor": [],
+              "info": []
+            },
+            "complexity": 1,
+            "maintainability": 90
+          }
+        ],
+        "issues": {
+          "blocker": [],
+          "critical": [],
+          "major": [],
+          "minor": [],
+          "info": []
+        },
+        "suggestions": [],
+        "metrics": {
+          "complexity": 1,
+          "duplication": 0,
+          "maintainability": 90,
+          "testability": 80
+        }
+      },
+      "report": "# Code Review Report\n\n**Review Type**: basic\n**Files Reviewed**: 1\n\n## Issues Summary\n\n## Code Metrics\n- **Complexity**: 1\n- **Maintainability**: 90/100\n- **Testability**: 80/100",
+      "summary": "Reviewed 1 files: 0 blockers, 0 critical issues"
+    },
+    "status": "completed",
+    "progress": 100
+  }
+}

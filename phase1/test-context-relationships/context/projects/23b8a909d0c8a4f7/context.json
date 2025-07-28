@@ -1,0 +1,22 @@
+{
+  "id": "23b8a909d0c8a4f7",
+  "level": "project",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T06:20:41.658Z",
+    "updatedAt": "2025-07-28T06:20:51.792Z",
+    "version": 3,
+    "tags": []
+  },
+  "data": {
+    "projectName": "Relationship Test Project",
+    "projectPath": ".",
+    "config": {},
+    "activeAgents": [],
+    "sharedState": {},
+    "children": [
+      "b48673b1f09e486f",
+      "e6569437a9786aeb"
+    ]
+  }
+}

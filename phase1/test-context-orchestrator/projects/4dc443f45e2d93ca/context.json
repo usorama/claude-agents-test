@@ -1,0 +1,20 @@
+{
+  "id": "4dc443f45e2d93ca",
+  "level": "project",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-27T07:02:43.859Z",
+    "updatedAt": "2025-07-27T07:02:43.860Z",
+    "version": 2,
+    "tags": [
+      "workflow-active"
+    ]
+  },
+  "data": {
+    "projectName": "Unnamed Project",
+    "projectPath": ".",
+    "config": {},
+    "activeAgents": [],
+    "sharedState": {}
+  }
+}

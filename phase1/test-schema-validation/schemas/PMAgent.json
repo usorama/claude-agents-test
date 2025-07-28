@@ -1,0 +1,9 @@
+{
+  "agentType": "PMAgent",
+  "description": "Schema for PMAgent",
+  "schemaDefinition": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

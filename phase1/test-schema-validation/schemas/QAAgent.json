@@ -1,0 +1,9 @@
+{
+  "agentType": "QAAgent",
+  "description": "Schema for QAAgent",
+  "schemaDefinition": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

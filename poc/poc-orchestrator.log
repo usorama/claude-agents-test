@@ -1,0 +1,12 @@
+{"level":"info","message":"Orchestrator initializing","timestamp":"2025-07-27T06:13:45.133Z"}
+{"agents":["analyst"],"level":"info","message":"Orchestrator initialized","timestamp":"2025-07-27T06:13:45.137Z"}
+{"level":"info","message":"Starting workflow","timestamp":"2025-07-27T06:13:45.137Z","workflow":"poc-test-workflow"}
+{"agent":"analyst","level":"info","message":"Executing step","step":"research-market","task":"research","timestamp":"2025-07-27T06:13:45.137Z"}
+{"error":"ENOENT: no such file or directory, open 'poc-context/agents/analyst-001/state.json.tmp'","level":"error","message":"Workflow failed","timestamp":"2025-07-27T06:13:45.139Z","workflow":"poc-test-workflow"}
+{"level":"info","message":"Orchestrator initializing","timestamp":"2025-07-27T06:14:01.490Z"}
+{"agents":["analyst"],"level":"info","message":"Orchestrator initialized","timestamp":"2025-07-27T06:14:01.494Z"}
+{"level":"info","message":"Starting workflow","timestamp":"2025-07-27T06:14:01.494Z","workflow":"poc-test-workflow"}
+{"agent":"analyst","level":"info","message":"Executing step","step":"research-market","task":"research","timestamp":"2025-07-27T06:14:01.494Z"}
+{"agent":"analyst","level":"info","message":"Executing step","step":"analyze-findings","task":"analyze","timestamp":"2025-07-27T06:14:01.496Z"}
+{"agent":"analyst","level":"info","message":"Executing step","step":"create-project-brief","task":"createBrief","timestamp":"2025-07-27T06:14:01.496Z"}
+{"duration":3,"level":"info","message":"Workflow completed","steps":3,"timestamp":"2025-07-27T06:14:01.497Z","workflow":"poc-test-workflow"}

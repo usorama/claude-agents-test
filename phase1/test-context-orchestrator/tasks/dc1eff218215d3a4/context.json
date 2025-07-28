@@ -1,0 +1,26 @@
+{
+  "id": "dc1eff218215d3a4",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T07:02:43.954Z",
+    "updatedAt": "2025-07-27T07:02:43.956Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "critical-priority",
+    "taskType": "delegate-task",
+    "input": {
+      "agentType": "analyst",
+      "task": "research-prompt",
+      "taskInput": {
+        "topic": "Critical priority topic"
+      },
+      "priority": "critical"
+    },
+    "status": "failed",
+    "progress": 0,
+    "error": "[\n  {\n    \"received\": \"assigned\",\n    \"code\": \"invalid_enum_value\",\n    \"options\": [\n      \"pending\",\n      \"running\",\n      \"completed\",\n      \"failed\"\n    ],\n    \"path\": [\n      \"data\",\n      \"status\"\n    ],\n    \"message\": \"Invalid enum value. Expected 'pending' | 'running' | 'completed' | 'failed', received 'assigned'\"\n  }\n]"
+  }
+}

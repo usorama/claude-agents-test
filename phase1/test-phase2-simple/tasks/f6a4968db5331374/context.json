@@ -1,0 +1,34 @@
+{
+  "id": "f6a4968db5331374",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:08:49.653Z",
+    "updatedAt": "2025-07-27T08:08:49.655Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLEDTKL-3MWC",
+    "taskType": "create-full-stack-architecture",
+    "input": {
+      "projectName": "New Project",
+      "requirements": [
+        "Design system architecture"
+      ]
+    },
+    "output": {
+      "taskId": "TASK-MDLEDTKL-3MWC",
+      "agentId": "architect-001",
+      "status": "failure",
+      "output": null,
+      "metrics": {
+        "duration": 2,
+        "tokensUsed": 0,
+        "toolInvocations": 0
+      },
+      "error": "infrastructure is not defined"
+    },
+    "status": "completed"
+  }
+}

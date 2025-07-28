@@ -1,0 +1,1 @@
+{"agent":"qa-proto","level":"error","message":"Safety violation prevented task execution","taskId":"test-calc-api","timestamp":"2025-07-28T05:30:43.284Z","type":"QAAgent","violations":[{"message":"Tool 'testing' is not allowed","severity":"CRITICAL","tool":"testing","type":"ACTION_FORBIDDEN"}]}

@@ -1,0 +1,29 @@
+{
+  "id": "c210f411cff0111f",
+  "level": "agent",
+  "parentId": "18ab52e6f86058e3",
+  "metadata": {
+    "createdAt": "2025-07-28T05:19:10.720Z",
+    "updatedAt": "2025-07-28T05:19:10.720Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "agentId": "monitor-001",
+    "agentType": "MonitorAgent",
+    "state": {
+      "agentId": "monitor-001",
+      "status": "idle",
+      "currentTasks": [],
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "lastActiveAt": "2025-07-28T05:19:10.694Z"
+    },
+    "history": [],
+    "capabilities": [
+      "monitoring",
+      "debugging"
+    ]
+  }
+}

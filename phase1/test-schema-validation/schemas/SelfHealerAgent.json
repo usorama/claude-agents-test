@@ -1,0 +1,9 @@
+{
+  "agentType": "SelfHealerAgent",
+  "description": "Schema for SelfHealerAgent",
+  "schemaDefinition": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

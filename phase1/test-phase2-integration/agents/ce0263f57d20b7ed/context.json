@@ -1,0 +1,30 @@
+{
+  "id": "ce0263f57d20b7ed",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-27T08:06:11.812Z",
+    "updatedAt": "2025-07-27T08:06:11.830Z",
+    "version": 3,
+    "tags": []
+  },
+  "data": {
+    "agentId": "architect-001",
+    "agentType": "architect",
+    "state": {
+      "agentId": "architect-001",
+      "status": "idle",
+      "currentTasks": [],
+      "completedTasks": 0,
+      "failedTasks": 1,
+      "totalTokensUsed": 0,
+      "lastActiveAt": "2025-07-27T08:06:11.828Z"
+    },
+    "history": [],
+    "capabilities": [
+      "architecture",
+      "planning",
+      "documentation"
+    ]
+  }
+}

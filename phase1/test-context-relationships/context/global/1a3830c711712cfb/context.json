@@ -1,0 +1,23 @@
+{
+  "id": "1a3830c711712cfb",
+  "level": "global",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T06:20:51.796Z",
+    "updatedAt": "2025-07-28T06:20:56.848Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "systemConfig": {
+      "testMode": true
+    },
+    "activeProjects": [],
+    "globalState": {
+      "hierarchyTest": true
+    },
+    "children": [
+      "02178854ace4400f"
+    ]
+  }
+}

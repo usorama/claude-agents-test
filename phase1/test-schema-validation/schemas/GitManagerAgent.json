@@ -1,0 +1,9 @@
+{
+  "agentType": "GitManagerAgent",
+  "description": "Schema for GitManagerAgent",
+  "schemaDefinition": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "d238ddf97e5026d9",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:08:49.647Z",
+    "updatedAt": "2025-07-27T08:08:49.652Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLEDTKF-ZJDX",
+    "taskType": "analyze-request",
+    "input": {
+      "request": "Create a product roadmap",
+      "context": {}
+    },
+    "output": {
+      "tasks": [
+        {
+          "taskId": "TASK-MDLEDTKG-QUGI",
+          "agentId": "pm-001",
+          "status": "failure",
+          "output": null,
+          "metrics": {
+            "duration": 3,
+            "tokensUsed": 0,
+            "toolInvocations": 0
+          },
+          "error": "Cannot read properties of undefined (reading 'slice')"
+        }
+      ],
+      "summary": "Executed 1 tasks"
+    },
+    "status": "completed",
+    "progress": 100
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "e4cb9b8a0e22c2a0",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T11:02:45.964Z",
+    "updatedAt": "2025-07-28T11:02:45.964Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "agentId": "agent-qa-1",
+    "agentType": "QAAgent",
+    "state": {
+      "agentId": "agent-qa-1",
+      "status": "idle",
+      "currentTasks": [],
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "lastActiveAt": "2025-07-28T11:02:45.956Z"
+    },
+    "history": [],
+    "capabilities": [
+      "file-operations",
+      "reporting"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "c9403a3e6df3702b",
+  "level": "task",
+  "parentId": "02178854ace4400f",
+  "metadata": {
+    "createdAt": "2025-07-28T06:21:01.860Z",
+    "updatedAt": "2025-07-28T06:21:01.860Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "taskId": "hierarchy-task",
+    "taskType": "hierarchy-test",
+    "input": {
+      "level": "task"
+    },
+    "status": "completed"
+  }
+}

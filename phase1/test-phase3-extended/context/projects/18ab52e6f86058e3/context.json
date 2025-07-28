@@ -1,0 +1,18 @@
+{
+  "id": "18ab52e6f86058e3",
+  "level": "project",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-28T05:19:10.718Z",
+    "updatedAt": "2025-07-28T05:19:10.718Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "projectName": "Extended Implementation Test",
+    "projectPath": ".",
+    "config": {},
+    "activeAgents": [],
+    "sharedState": {}
+  }
+}

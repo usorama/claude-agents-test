@@ -1,0 +1,46 @@
+{
+  "id": "c2d5520fbdb0f732",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T07:02:43.891Z",
+    "updatedAt": "2025-07-27T07:02:43.892Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "test-parallel-1",
+    "taskType": "coordinate-agents",
+    "input": {
+      "agents": [
+        "analyst",
+        "analyst",
+        "analyst"
+      ],
+      "tasks": [
+        {
+          "type": "research-prompt",
+          "input": {
+            "topic": "Topic 1"
+          }
+        },
+        {
+          "type": "research-prompt",
+          "input": {
+            "topic": "Topic 2"
+          }
+        },
+        {
+          "type": "research-prompt",
+          "input": {
+            "topic": "Topic 3"
+          }
+        }
+      ],
+      "coordination": "parallel"
+    },
+    "status": "failed",
+    "progress": 0,
+    "error": "[\n  {\n    \"received\": \"assigned\",\n    \"code\": \"invalid_enum_value\",\n    \"options\": [\n      \"pending\",\n      \"running\",\n      \"completed\",\n      \"failed\"\n    ],\n    \"path\": [\n      \"data\",\n      \"status\"\n    ],\n    \"message\": \"Invalid enum value. Expected 'pending' | 'running' | 'completed' | 'failed', received 'assigned'\"\n  }\n]"
+  }
+}

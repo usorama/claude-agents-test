@@ -1,0 +1,22 @@
+{
+  "id": "d639f39cf03e320a",
+  "level": "task",
+  "parentId": "pm-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:08:49.649Z",
+    "updatedAt": "2025-07-27T08:08:49.651Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLEDTKG-QUGI",
+    "taskType": "create-prd",
+    "input": {
+      "projectName": "New Project",
+      "requirements": "Create a product roadmap"
+    },
+    "status": "failed",
+    "progress": 0,
+    "error": "Cannot read properties of undefined (reading 'slice')"
+  }
+}

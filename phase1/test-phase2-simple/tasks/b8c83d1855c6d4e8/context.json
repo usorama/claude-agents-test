@@ -1,0 +1,38 @@
+{
+  "id": "b8c83d1855c6d4e8",
+  "level": "task",
+  "parentId": "orchestrator-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:08:49.653Z",
+    "updatedAt": "2025-07-27T08:08:49.655Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "TASK-MDLEDTKK-9N0X",
+    "taskType": "analyze-request",
+    "input": {
+      "request": "Design system architecture",
+      "context": {}
+    },
+    "output": {
+      "tasks": [
+        {
+          "taskId": "TASK-MDLEDTKL-3MWC",
+          "agentId": "architect-001",
+          "status": "failure",
+          "output": null,
+          "metrics": {
+            "duration": 2,
+            "tokensUsed": 0,
+            "toolInvocations": 0
+          },
+          "error": "infrastructure is not defined"
+        }
+      ],
+      "summary": "Executed 1 tasks"
+    },
+    "status": "completed",
+    "progress": 100
+  }
+}

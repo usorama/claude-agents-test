@@ -1,0 +1,30 @@
+{
+  "id": "82de0077ae95256b",
+  "level": "agent",
+  "parentId": null,
+  "metadata": {
+    "createdAt": "2025-07-27T07:02:43.864Z",
+    "updatedAt": "2025-07-27T07:02:43.864Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "agentId": "pm-001",
+    "agentType": "pm",
+    "state": {
+      "agentId": "pm-001",
+      "status": "idle",
+      "currentTasks": [],
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "totalTokensUsed": 0,
+      "lastActiveAt": "2025-07-27T07:02:43.863Z"
+    },
+    "history": [],
+    "capabilities": [
+      "planning",
+      "documentation",
+      "project_management"
+    ]
+  }
+}

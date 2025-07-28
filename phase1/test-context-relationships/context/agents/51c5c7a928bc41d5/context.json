@@ -1,0 +1,20 @@
+{
+  "id": "51c5c7a928bc41d5",
+  "level": "agent",
+  "parentId": "02178854ace4400f",
+  "metadata": {
+    "createdAt": "2025-07-28T06:20:56.849Z",
+    "updatedAt": "2025-07-28T06:20:56.849Z",
+    "version": 1,
+    "tags": []
+  },
+  "data": {
+    "agentId": "hierarchy-agent",
+    "agentType": "HierarchyAgent",
+    "state": {},
+    "history": [],
+    "capabilities": [
+      "hierarchy-testing"
+    ]
+  }
+}

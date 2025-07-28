@@ -1,0 +1,20 @@
+{
+  "id": "1c4c92f62ee47e32",
+  "level": "agent",
+  "parentId": "50df270ff4b22910",
+  "metadata": {
+    "createdAt": "2025-07-28T06:21:16.949Z",
+    "updatedAt": "2025-07-28T06:21:21.958Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "agentId": "consistency-agent",
+    "agentType": "ConsistencyAgent",
+    "state": {
+      "updated": true
+    },
+    "history": [],
+    "capabilities": []
+  }
+}

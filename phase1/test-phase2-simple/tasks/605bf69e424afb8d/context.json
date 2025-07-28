@@ -1,0 +1,31 @@
+{
+  "id": "605bf69e424afb8d",
+  "level": "task",
+  "parentId": "monitor-001",
+  "metadata": {
+    "createdAt": "2025-07-27T08:08:49.678Z",
+    "updatedAt": "2025-07-27T08:08:49.678Z",
+    "version": 2,
+    "tags": []
+  },
+  "data": {
+    "taskId": "test-monitor",
+    "taskType": "health-check",
+    "input": {
+      "checks": [
+        "connectivity"
+      ]
+    },
+    "output": {
+      "healthCheck": {
+        "timestamp": "2025-07-27T08:08:49.678Z",
+        "overall": "healthy",
+        "targets": {},
+        "issues": []
+      },
+      "summary": "Health check: healthy - 0 issues found"
+    },
+    "status": "completed",
+    "progress": 100
+  }
+}
